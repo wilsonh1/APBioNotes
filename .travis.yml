@@ -4,13 +4,9 @@ cache:
     directories:
         - _book
 
+before_script:
+    - chmod +x ./_deploy.sh
+
 script:
     - Rscript -e 'bookdown::render_book("index.Rmd")'
-
-deploy:
-    provider: pages
-    skip_cleanup: true
-    github_token: $GITHUB_TOKEN
-    on:
-        branch: master
-    local_dir: _book
+    - ./_deploy.sh
