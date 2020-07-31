@@ -1,0 +1,8 @@
+bookdown::gitbook:
+    split_by: chapter
+    number_sections: FALSE
+    config:
+        toc:
+            collapse: none
+            before: |
+                <li><a href="./index.html">AP Bio Notes</a></li>
