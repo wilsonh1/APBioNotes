@@ -1,0 +1,11 @@
+.header-section-number {
+    display: none
+}
+
+h1, h2 {
+    font-weight: normal
+}
+
+h1 strong, h2 strong {
+    padding-right: .5em;
+}
