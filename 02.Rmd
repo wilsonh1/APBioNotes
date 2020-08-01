@@ -8,11 +8,11 @@
     - **Hydrogen bonding:** the slightly positive hydrogen of one molecule is attracted to the slightly negative oxygen of a nearby molecule. Bonds form and break quickly in liquid water.
     - Four emergent properties arise
 
-#### **1.** Cohesive behavior
-- Hydrogen bonds keep water molecules close together (**cohesion**)
-- Hydrogen bonds result in the clinging of water to other substances (**adhesion**)
+#### 1. Cohesive behavior:
+- **Cohesion:** hydrogen bonds keep water molecules close together
+- **Adhesion:** water clings to other substances through hydrogen bonds
 - Cohesion gives water an unusually high **surface tension**
 
-#### **2.** Moderation of temperature:
+#### 2. Moderation of temperature:
 - Water absorbs heat from warm air and releases heat to cooler behavior
 - Effective as a heat bank due to its high **specific heat**

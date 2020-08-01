@@ -3,6 +3,9 @@ bookdown::gitbook:
     split_by: chapter
     config:
         toc:
-            collapse: none
+            collapse: section
             before: |
                 <li><a href="./index.html">AP Bio Notes</a></li>
+        edit: https://github.com/wilsonh1/APBioNotes/edit/master/%s
+        view: https://github.com/wilsonh1/APBioNotes/blob/master/%s
+        sharing: no
