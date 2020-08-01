@@ -1,5 +1,18 @@
-# **Chapter 2** The Chemical Context of Life {#chem}
+# **2** The Chemical Context of Life {#chem}
 
 ## **2.1-4** chem lol
 
 ## **2.5** Water
+- Structure and interactions:
+    - **Polar molecule:** overall charge is unevenly distributed
+    - **Hydrogen bonding:** the slightly positive hydrogen of one molecule is attracted to the slightly negative oxygen of a nearby molecule. Bonds form and break quickly in liquid water.
+    - Four emergent properties arise
+
+#### **1.** Cohesive behavior
+- Hydrogen bonds keep water molecules close together (**cohesion**)
+- Hydrogen bonds result in the clinging of water to other substances (**adhesion**)
+- Cohesion gives water an unusually high **surface tension**
+
+#### **2.** Moderation of temperature:
+- Water absorbs heat from warm air and releases heat to cooler behavior
+- Effective as a heat bank due to its high **specific heat**

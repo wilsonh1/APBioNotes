@@ -1,1 +1,8 @@
 # Preface {-}
+
+## Textbooks
+- [Campbell Biology in Focus](https://drive.google.com/uc?export=download&id=1psB9_RvLbvb29f7wpxXm5B1moAnLgM9f)
+- [Campbell Biology](https://drive.google.com/uc?export=download&id=1_FAslC0hqf276vZ6FiNmfi4fXj2dopJJ) (Unabridged textbook)
+
+## Additional resources
+- [More notes](https://drive.google.com/file/d/1F60xvNtyReV8deqlMydJd0gAT008mWQZ/view)
