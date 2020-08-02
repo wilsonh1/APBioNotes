@@ -6,12 +6,18 @@ h1 strong:before {
     content: "Chapter "
 }
 
+h1, h2 {
+    display: flex
+}
+
 h1, h2, h3, h4 {
     font-weight: normal
 }
 
 h1 strong, h2 strong {
-    padding-right: .5em
+    padding-right: .5em;
+    flex-grow: 0;
+    flex-shrink: 0
 }
 
 div.flex {
