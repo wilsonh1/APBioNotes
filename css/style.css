@@ -11,5 +11,18 @@ h1, h2, h3, h4 {
 }
 
 h1 strong, h2 strong {
-    padding-right: .5em;
+    padding-right: .5em
+}
+
+div.flex {
+    display: flex
+}
+
+div.flex-text {
+    padding-right: .8em
+}
+
+div.flex-img {
+    flex-grow: 0;
+    flex-shrink: 0
 }
