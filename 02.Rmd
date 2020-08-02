@@ -47,17 +47,17 @@
 - **Hydrophilic:** any substance that has a high affinity for water, does not necessarily have to dissolve  
     **Hydrophobic:** substances with no affinity for water, nonionic or nonpolar
 - Solute concentration in aqueous solutions:
-    - **Molecular mass:** the sum of the masses of all the atoms in a molecule  
-        **Mole:** an exact number of objects. 6.02 $\times$ 10^23^, Avogadro's number.
-        **Molarity:** the number of moles of solute per liter of solution
+    - **Molecular mass:** the sum of the masses of all the atoms in a molecule
+    - **Mole:** an exact number of objects. 6.02 $\times$ 10^23^, Avogadro's number.
+    - **Molarity:** the number of moles of solute per liter of solution
 
 #### Acids and bases:
 - A hydrogen atom participating in a hydrogen bond may occasionally shift from one molecule to the other:
     - A **hydrogen ion** (H^+^) is transferred
-    - **Hydroxide ion** (OH^-^)**:** water molecule that lost a proton
+    - **Hydroxide ion** (OH^-^)**:** water molecule that loses a proton
     - **Hydronium ion** (H~3~O^+^)**:** water molecule that gains a proton, conventionally represented by H^+^
 - **Acid:** a substance that increases the hydrogen ion concentration  
     **Base:** a substance that reduces the hydrogen ion concentration, either by accepting hydrogen ions directly or by dissociating into hydroxide ions and forming water
 - Strong acids/bases dissociate completely, while weak acids/bases reversibly release and accept ions
 - **pH:** log scale for measuring hydrogen ion concentration. Values less than 7 are acidic, above 7 is basic.
-- **Buffer:** a substance that minimizes changes in the concentrations of H^+^ and OH^-^. Donates hydrogen ions when they are depleted and accepts ions when they are in excess. 
+- **Buffer:** a substance that minimizes changes in the concentrations of H^+^ and OH^-^. Donates hydrogen ions when they are depleted and accepts ions when they are in excess.
