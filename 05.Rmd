@@ -1,0 +1,30 @@
+# **5** Membrane Transport and Cell Signaling {#membrane}
+
+- **Selective permeability:** allows some substances to cross it more easily than others
+
+## **5.1** Cellular membranes
+
+```{r membrane, echo = FALSE, out.height = "300px"}
+knitr::include_graphics("images/05/05_02_PlasmaMembrane-L.jpg")
+```
+
+<div class = "flex">
+<div class = "flex-text">
+
+- Phospholipids:
+    - Most abundant lipid in most membranes
+    - **Amphipathic:** has both a hydrophilic region and a hydrophobic region. Bilayer arrangement shelters the hydrophobic tails while exposing the hydrophilic heads to water.
+
+</div>
+<div class = "flex-img">
+
+```{r phospholipid, out.height = "180px", echo = FALSE}
+knitr::include_graphics("images/05/05_03PhosphoLipidBilayer-L.jpg")
+```
+
+</div>
+</div>
+
+- Most membrane proteins are also amphipathic:
+    - Can reside in the phospholipid bilayer with hydrophilic regions protruding
+    - Provide its hydrophobic parts with a nonaqueous environment
