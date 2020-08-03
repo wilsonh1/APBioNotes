@@ -25,10 +25,25 @@ div.flex {
 }
 
 div.flex-text {
-    padding-right: .8em
+    padding-right: .85em
 }
 
 div.flex-img {
     flex-grow: 0;
     flex-shrink: 0
+}
+
+div.figure {
+    display: flex;
+    flex-direction: column
+}
+
+p.caption {
+    display: none;
+    order: 1
+}
+
+div.figure img {
+    align-self: center;
+    margin-bottom: .85em
 }
