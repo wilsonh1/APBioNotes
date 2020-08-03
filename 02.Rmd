@@ -48,7 +48,7 @@
     **Hydrophobic:** substances with no affinity for water, nonionic or nonpolar
 - Solute concentration in aqueous solutions:
     - **Molecular mass:** the sum of the masses of all the atoms in a molecule
-    - **Mole:** an exact number of objects. 6.02 $\times$ 10^23^, Avogadro's number.
+    - **Mole:** represents an exact number of objects. 6.02 $\times$ 10^23^, Avogadro's number.
     - **Molarity:** the number of moles of solute per liter of solution
 
 #### Acids and bases:

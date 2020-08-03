@@ -1,7 +1,5 @@
 # **5** Membrane Transport and Cell Signaling {#membrane}
 
-- **Selective permeability:** allows some substances to cross it more easily than others
-
 ## **5.1** Cellular membranes
 
 ```{r membrane, echo = FALSE, out.height = "300px"}
@@ -10,21 +8,65 @@ knitr::include_graphics("images/05/05_02_PlasmaMembrane-L.jpg")
 
 <div class = "flex">
 <div class = "flex-text">
-
 - Phospholipids:
     - Most abundant lipid in most membranes
     - **Amphipathic:** has both a hydrophilic region and a hydrophobic region. Bilayer arrangement shelters the hydrophobic tails while exposing the hydrophilic heads to water.
-
 </div>
 <div class = "flex-img">
-
 ```{r phospholipid, out.height = "180px", echo = FALSE}
 knitr::include_graphics("images/05/05_03PhosphoLipidBilayer-L.jpg")
 ```
-
 </div>
 </div>
 
 - Most membrane proteins are also amphipathic:
     - Can reside in the phospholipid bilayer with hydrophilic regions protruding
-    - Provide its hydrophobic parts with a nonaqueous environment
+    - Provides its hydrophobic parts with a nonaqueous environment
+- **Fluid mosaic model:** the membrane is a mosaic of protein molecules bobbing in a fluid phospholipid bilayer
+
+#### The fluidity of membranes:
+- Most lipids and some proteins can shift about laterally:
+    - Proteins are much larger and move more slowly
+    - Some proteins movie in a directed manner, others can be held in place
+- As temperature decreases, phospholipids become closely packed and the membrane solidifies:
+    - Unsaturated hydrocarbon tails cannot pack as closely as saturated tails, membrane remains fluid to a lower temperature
+    - Cholesterol helps membranes resist changes in fluidity:
+        - Restrains phospholipid movement at high temperatures
+        - Hinders close packing at low temperatures
+- Evolutionary differences in membrane lipid composition maintain appropriate fluidity under specific environmental conditions
+
+#### Proteins determine membrane function:
+
+```{r membproteins, echo = FALSE, out.height = "350px", fig.cap = "Proteins"}
+knitr::include_graphics("images/05/05_07_MembProteinFxns-L.jpg")
+```
+
+- **Integral proteins:** penetrate the hydrophobic hydrophobic interior of the lipid bilayer
+    - Transmembrane proteins span the membrane, others extend only partway
+    - Some proteins have hydrophilic channels that allow passage of substances ^[(a)](#fig:membproteins)^
+- **Peripheral proteins:** not embedded in the lipid bilayer. Loosely bound to the surface of the membrane, often to exposed parts of integral proteins
+- Some membrane proteins are attached to the cytoskeleton or to fibers of the ECM, providing a strong framework for animal cells ^[(c)](#fig:membproteins)^
+- A single cell may have proteins carrying out several functions, and a single protein may have multiple functions
+
+#### Membrane carbohydrates and cell-cell recognition:
+- Cells recognize other cells by binding to molecules, often containing carbohydrates, on the surface of the plasma membrane ^[(d)](#fig:membproteins)^
+- Membrane carbohydrates are usually short and branched:
+    - **Glycolipids:** covalently bonded to lipids
+    - **Glycoproteins:** covalently bonded to proteins
+- Function as markers that distinguish one cell from another
+
+#### Synthesis and sidedness of membranes:
+- A membrane has two distinct faces
+- Asymmetric arrangement of proteins, lipids, and attached carbohydrates is determined as the membrane is being built
+
+```{r synthesis, echo = FALSE, out.height = "350px", fig.align = "center"}
+knitr::include_graphics("images/05/05_08MembraneSynthesis-L.jpg")
+```
+
+1. Membrane proteins and lipids are synthesized in the ER
+2. Inside the Golgi apparatus, glycoproteins undergo carbohydrate modification, and some lipids become glycolipids
+3. Synthesized membrane components are transported by vesicles
+4. As vesicles fuse with the plasma membrane, the outside face of the vesicle become continuous with the cytoplasmic face of the plasma membrane. Carbohydrates are positioned on the extracellular face.
+
+## **5.2** Membrane structure
+- **Selective permeability:** allows some substances to cross it more easily than others
