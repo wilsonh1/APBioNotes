@@ -13,7 +13,7 @@ knitr::include_graphics("images/05/05_02_PlasmaMembrane-L.jpg")
     - **Amphipathic:** has both a hydrophilic region and a hydrophobic region. Bilayer arrangement shelters the hydrophobic tails while exposing the hydrophilic heads to water.
 </div>
 <div class = "flex-img">
-```{r phospholipid, out.height = "180px", echo = FALSE}
+```{r phospholipid, out.height = "200px", echo = FALSE}
 knitr::include_graphics("images/05/05_03PhosphoLipidBilayer-L.jpg")
 ```
 </div>
@@ -68,5 +68,55 @@ knitr::include_graphics("images/05/05_08MembraneSynthesis-L.jpg")
 3. Synthesized membrane components are transported by vesicles
 4. As vesicles fuse with the plasma membrane, the outside face of the vesicle become continuous with the cytoplasmic face of the plasma membrane. Carbohydrates are positioned on the extracellular face.
 
-## **5.2** Membrane structure
-- **Selective permeability:** allows some substances to cross it more easily than others
+## **5.2** Membrane structure and permeability
+- **Selectively permeable:** allows some substances to cross more easily than others
+    - Nonpolar molecules (hydrophobic) can dissolve in the lipid bilayer and cross it easily
+    - Ions and polar molecules (hydrophilic) are impeded by the hydrophobic interior of the membrane, do not cross very rapidly
+    - Membrane proteins play key roles in regulating transport
+
+#### Transport proteins:
+- Allow hydrophilic substances to avoid contact with the lipid bilayer
+- **Channel proteins:** provide a hydrophilic channel for certain molecules or ions to pass through
+    - **Aquaporins:** channel protein that facilitates the passage of water molecules
+- **Carrier proteins:** hold onto their passengers and change shape in a way that shuttles them across the membrane
+- A transport protein is specific to the substance it moves
+
+## **5.3** Passive transport
+- Diffusion of a substance across a membrane with no energy investment
+- **Diffusion:** the movement of a particles so that they tend to spread out evenly into the available space
+
+    ```{r diffusion, echo = FALSE, out.height = "180px", fig.align = "center"}
+    knitr::include_graphics("images/05/05_09DiffusionMembrane-L.jpg")
+    ```
+
+    - Results in dynamic equilibrium. Molecules continue to cross the membrane, but at equal rates in both directions.
+    - A substance diffuses from where it is more concentrated to where it is less concentrated (down its **concentration gradient**)
+    - Unaffected by the concentration gradients of other substances
+    - No work must be done, concentration gradient represents potential energy and drives diffusion
+
+#### Water balance:
+- Osmosis: diffusion of water across a selectively permeable membrane
+    - Some of the water is clustered around hydrophilic solute molecules and unable to cross the membrane
+    - Water diffuses from the region of lower solute concentration (higher free water concentration) to that of higher solute concentration (lower free water concentration)
+- Tonicity: the ability of a solution to cause a cell to gain or lose water
+    - Depends on the solution's concentration of solutes that cannot cross the membrane
+
+    ```{r osmosis, echo = FALSE, out.height = "300px", fig.align = "center"}
+    knitr::include_graphics("images/05/05_11WaterBalance-L.jpg")
+    ```
+
+    - For cells without walls:
+        - **Isotonic:** no net movement of water, volume of cell is stable (_iso_ "same")
+        - **Hypertonic:** cell will lose water and shrivel (_hyper_ "more" nonpentrating solutes)
+        - **Hypertonic:** water enters the cell faster than it leaves, cell will swell and lyse (_hypo_ "less")
+        - **Osmoregulation:** the control of solute concentrations and water balance. A cell without rigid walls can tolerate neither excessive uptake nor excessive loss of water.
+    - For cells with walls:
+        - Hypotonic: cell swells as water enters, inelastic cell wall exerts a back pressure. Cell is **turgid** and healthy, provides mechanical support.
+        - Isotonic: no net tendency for water to enter, cells become **flaccid**
+        - Hypertonic: as cell shrinks, its plasma membrane pulls away from the wall (**plasmolysis**)
+
+#### Facilitated diffusion:
+- Passive transport aided by proteins
+- **Ion channels:** channel protein that transports ions
+    - **Gated channels:** open or close in response to a stimulus
+- Carrier proteins may change shape in response to the binding and release of the transported molecule
