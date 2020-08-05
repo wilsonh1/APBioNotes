@@ -1,1 +1,1 @@
-# **37** Neurons, Synapses, and Signaling {neurons}
+# **37** Neurons, Synapses, and Signaling {#neurons}
