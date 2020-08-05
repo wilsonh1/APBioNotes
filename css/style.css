@@ -47,3 +47,12 @@ div.figure img {
     align-self: center;
     margin-bottom: .85em
 }
+
+li p {
+    margin-bottom: 0em !important
+}
+
+li img {
+    margin-top: .85em !important;
+    margin-bottom: .85em !important
+}
