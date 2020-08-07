@@ -1,1 +1,11 @@
 # **3** Carbon and the Molecular Diversity of Life {#carbon}
+
+## **3.1** Carbon
+- Can form large, complex molecules by bonding to up to four other atoms
+-
+
+#### Chemical groups
+
+```{r chemgroups, echo = FALSE, out.height = "500px"}
+knitr::include_graphics("images/03/03_05_ChemicalGroups-L.jpg")
+```

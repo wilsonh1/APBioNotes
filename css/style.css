@@ -21,10 +21,13 @@ h1 strong, h2 strong {
 }
 
 div.flex {
-    display: flex
+    display: flex;
+    flex-wrap: wrap
 }
 
 div.flex-text {
+    flex-basis: 75%;
+    flex-grow: 1;
     padding-right: .85em
 }
 

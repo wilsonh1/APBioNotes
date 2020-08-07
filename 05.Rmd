@@ -6,13 +6,13 @@
 knitr::include_graphics("images/05/05_02_PlasmaMembrane-L.jpg")
 ```
 
-<div class = "flex">
-<div class = "flex-text">
+<div class="flex">
+<div class="flex-text">
 - Phospholipids:
     - Most abundant lipid in most membranes
     - **Amphipathic:** has both a hydrophilic region and a hydrophobic region. Bilayer arrangement shelters the hydrophobic tails while exposing the hydrophilic heads to water.
 </div>
-<div class = "flex-img">
+<div class="flex-img">
 ```{r phospholipid, out.height = "200px", echo = FALSE}
 knitr::include_graphics("images/05/05_03PhosphoLipidBilayer-L.jpg")
 ```
@@ -37,7 +37,7 @@ knitr::include_graphics("images/05/05_03PhosphoLipidBilayer-L.jpg")
 
 #### Proteins determine membrane function:
 
-```{r membproteins, echo = FALSE, out.height = "350px", fig.cap = "Proteins"}
+```{r membproteins, echo = FALSE, out.height = "325px", fig.cap = "Proteins"}
 knitr::include_graphics("images/05/05_07_MembProteinFxns-L.jpg")
 ```
 
@@ -59,7 +59,7 @@ knitr::include_graphics("images/05/05_07_MembProteinFxns-L.jpg")
 - A membrane has two distinct faces
 - Asymmetric arrangement of proteins, lipids, and attached carbohydrates is determined as the membrane is being built
 
-```{r synthesis, echo = FALSE, out.height = "350px", fig.align = "center"}
+```{r synthesis, echo = FALSE, out.height = "325px", fig.align = "center"}
 knitr::include_graphics("images/05/05_08MembraneSynthesis-L.jpg")
 ```
 
@@ -85,7 +85,7 @@ knitr::include_graphics("images/05/05_08MembraneSynthesis-L.jpg")
 - Diffusion of a substance across a membrane with no energy investment
 - **Diffusion:** the movement of a particles so that they tend to spread out evenly into the available space
 
-    ```{r diffusion, echo = FALSE, out.height = "180px", fig.align = "center"}
+    ```{r diffusion, echo = FALSE, out.height = "150px", fig.align = "center"}
     knitr::include_graphics("images/05/05_09DiffusionMembrane-L.jpg")
     ```
 
@@ -101,7 +101,7 @@ knitr::include_graphics("images/05/05_08MembraneSynthesis-L.jpg")
 - Tonicity: the ability of a solution to cause a cell to gain or lose water
     - Depends on the solution's concentration of solutes that cannot cross the membrane
 
-    ```{r osmosis, echo = FALSE, out.height = "300px", fig.align = "center"}
+    ```{r osmosis, echo = FALSE, out.height = "250px", fig.align = "center"}
     knitr::include_graphics("images/05/05_11WaterBalance-L.jpg")
     ```
 
@@ -120,3 +120,62 @@ knitr::include_graphics("images/05/05_08MembraneSynthesis-L.jpg")
 - **Ion channels:** channel protein that transports ions
     - **Gated channels:** open or close in response to a stimulus
 - Carrier proteins may change shape in response to the binding and release of the transported molecule
+
+## **5.4** Active transport
+- Some transport proteins can move solutes against their concentration gradients
+- Cells must expend energy, usually supplied by ATP
+- Enables a cell to maintain internal concentrations of solutes that differ from concentrations in its environment
+- **Sodium-potassium pump:**
+    - An animal cell has a much higher concentration of potassium ions (K^+^) and a much lower concentration of sodium ions (Na^+^)
+
+    ```{r nakpump, echo = FALSE, out.height = "375px", fig.cap = "NaKpump"}
+    knitr::include_graphics("images/05/05_14_NaKPump-L.jpg")
+    ```
+
+    - 3 Na^+^ are moved out for every 2 K^+^ pumped in
+    - Pump oscillates between two shapes:
+        - Protein shape in [(1)](#fig:nakpump) has a high affinity for Na^+^, shape in [(4)](#fig:nakpump) has a high affinity for K^+^
+        - ATP powers the shape change by transferring a phosphate group (phosphorylation) ^[(2)](#fig:nakpump)^
+
+#### Ion pumps maintain membrane potential:
+- Cytoplasmic side of the membrane is negative in charge relative to extracellular side
+- Due to an unequal distribution of anions and cations on the two sides
+- **Membrane potential** favors the passive transport of cations in the cell and anions out of the cell
+- An ion diffuses down its **electrochemical gradient:**
+    - Combination of a chemical force (concentration gradient) and an electric force
+- **Electrogenic pump:** transport protein that generates a voltage across a membrane
+    - Sodium-potassium pump is the major electrogenic pump fro animal cells (net transfer of one positive charge out of the cell)
+    - Proton pumps in plants, fungi, and bacteria actively transport H^+^ out of the cell
+    - Helps store energy that can be tapped for work
+
+#### Cotransport:
+- An ATP-powered pump can indirectly drive the active transport of other solutes:
+    - A substance pumped across a membrane can do work as it moves back by diffusion
+    - A cotransporter uses this to transport a second substance against its concentration gradient
+ - In plants, the H^+^ gradient stores potential energy that can be used for active transport
+
+     ```{r cotransport, echo = FALSE, out.height = "250px", fig.align = "center"}
+     knitr::include_graphics("images/05/05_17Cotransport-L.jpg")
+     ```
+
+    - Return of H^+^ being coupled with the transport of sucrose
+
+## **5.5** Bulk transport
+- Large molecules cross the membrane in bulk by mechanisms that involve packaging in vesicles
+- Requires energy
+
+#### Exocytosis:
+- Cells secrete biological molecules by the fusion of vesicles with the plasma membrane
+    - Contents of the vesicle spill out, vesicle membrane becomes part of plasma membrane
+- Used by many secretory cells
+
+#### Endocytosis:
+- Cells take in molecules by forming vesicles from the plasma membrane
+    - Small area of the plasma membrane sinks inward to form a pocket
+    - As the pocket deepens, it pinches in and forms a vesicles
+- Events look like the reverse of exocytosis
+- Three types:
+
+    ```{r endocytosis, echo = FALSE, out.height = "300px", fig.align = "center"}
+    knitr::include_graphics("images/05/05_18_Endocytosis-L.jpg")
+    ```
