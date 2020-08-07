@@ -5,11 +5,11 @@ title: "AP Bio Notes"
 # Preface {-}
 
 ## Textbooks
-- [Campbell Biology in Focus](https://drive.google.com/uc?export=download&id=1psB9_RvLbvb29f7wpxXm5B1moAnLgM9f)
-- [Campbell Biology](https://drive.google.com/uc?export=download&id=1_FAslC0hqf276vZ6FiNmfi4fXj2dopJJ) (Unabridged textbook)
+- [Campbell Biology in Focus](https://drive.google.com/uc?export=download&id=1psB9_RvLbvb29f7wpxXm5B1moAnLgM9f){target="_blank"}
+- [Campbell Biology](https://drive.google.com/uc?export=download&id=1_FAslC0hqf276vZ6FiNmfi4fXj2dopJJ){target="_blank"} (Unabridged textbook)
 
 ## Additional resources
-- [More notes](https://drive.google.com/file/d/1F60xvNtyReV8deqlMydJd0gAT008mWQZ/view)
+- [More notes](https://drive.google.com/file/d/1F60xvNtyReV8deqlMydJd0gAT008mWQZ/view){target="_blank"}
 - Download figures:  
     Chapter # (1-43) <input type="number" id="chapter" min="1" max="43"> <button type="button" id="download">Download</button>
 
