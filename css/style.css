@@ -26,7 +26,7 @@ div.flex {
 }
 
 div.flex-text {
-    flex-basis: 75%;
+    flex-basis: 50%;
     flex-grow: 1;
     padding-right: .85em
 }
