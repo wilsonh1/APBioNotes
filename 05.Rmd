@@ -128,14 +128,20 @@ knitr::include_graphics("images/05/05_08MembraneSynthesis-L.jpg")
 - **Sodium-potassium pump:**
     - An animal cell has a much higher concentration of potassium ions (K^+^) and a much lower concentration of sodium ions (Na^+^)
 
-    ```{r nakpump, echo = FALSE, out.height = "400px", fig.cap = "NaKpump"}
-    knitr::include_graphics("images/05/05_14_NaKPump-L.jpg")
-    ```
-
+    <div class="flex">
+    <div class="flex-text">
     - 3 Na^+^ are moved out for every 2 K^+^ pumped in
     - Pump oscillates between two shapes:
         - Protein shape in [(1)](#fig:nakpump) has a high affinity for Na^+^, shape in [(4)](#fig:nakpump) has a high affinity for K^+^
         - ATP powers the shape change by transferring a phosphate group (phosphorylation) ^[(2)](#fig:nakpump)^. Na^+^ binding stimulates phosphorylation, K^+^ binding triggers release of the phosphate group.
+    </div>
+    <div class="flex-img">
+    ```{r nakpump, echo = FALSE, out.height = "400px", fig.cap = "NaKpump"}
+    knitr::include_graphics("images/05/05_14_NaKPump-L.jpg")
+    ```
+    </div>
+    </div>
+
 
 #### Ion pumps maintain membrane potential:
 - Cytoplasmic side of the membrane is negative in charge relative to extracellular side
@@ -278,7 +284,7 @@ knitr::include_graphics("images/05/05_23_SteroidHormone-L.jpg")
 - Usually a multistep pathway, provides more coordination and the possibility of greatly amplifying a signal
 - Signal-activated receptor activates another molecule, which activates another molecule, and so on
 - Continues until the protein that produces the final cellular response is activated
-- Original signaling molecule is not passed along. The signal is transduced into different forms, commonly via a shape change in a protein
+- Original signaling molecule is not passed along. The signal is transduced into different forms, commonly via a shape change in a protein.
 - Protein phosphorylation:
 
     ``` {r phoscascade, echo = FALSE, out.height = "325px", fig.align = "center"}
