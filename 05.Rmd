@@ -128,14 +128,14 @@ knitr::include_graphics("images/05/05_08MembraneSynthesis-L.jpg")
 - **Sodium-potassium pump:**
     - An animal cell has a much higher concentration of potassium ions (K^+^) and a much lower concentration of sodium ions (Na^+^)
 
-    ```{r nakpump, echo = FALSE, out.height = "375px", fig.cap = "NaKpump"}
+    ```{r nakpump, echo = FALSE, out.height = "400px", fig.cap = "NaKpump"}
     knitr::include_graphics("images/05/05_14_NaKPump-L.jpg")
     ```
 
     - 3 Na^+^ are moved out for every 2 K^+^ pumped in
     - Pump oscillates between two shapes:
         - Protein shape in [(1)](#fig:nakpump) has a high affinity for Na^+^, shape in [(4)](#fig:nakpump) has a high affinity for K^+^
-        - ATP powers the shape change by transferring a phosphate group (phosphorylation) ^[(2)](#fig:nakpump)^
+        - ATP powers the shape change by transferring a phosphate group (phosphorylation) ^[(2)](#fig:nakpump)^. Na^+^ binding stimulates phosphorylation, K^+^ binding triggers release of the phosphate group.
 
 #### Ion pumps maintain membrane potential:
 - Cytoplasmic side of the membrane is negative in charge relative to extracellular side
@@ -152,13 +152,18 @@ knitr::include_graphics("images/05/05_08MembraneSynthesis-L.jpg")
 - An ATP-powered pump can indirectly drive the active transport of other solutes:
     - A substance pumped across a membrane can do work as it moves back by diffusion
     - A cotransporter uses this to transport a second substance against its concentration gradient
+
+<div class="flex">
+<div class="flex-text">
  - In plants, the H^+^ gradient stores potential energy that can be used for active transport
-
-     ```{r cotransport, echo = FALSE, out.height = "250px", fig.align = "center"}
-     knitr::include_graphics("images/05/05_17Cotransport-L.jpg")
-     ```
-
-    - Return of H^+^ being coupled with the transport of sucrose
+    - Return of H^+^ coupled with the transport of sucrose
+</div>
+<div class="flex-img">
+ ```{r cotransport, echo = FALSE, out.height = "200px", fig.align = "center"}
+ knitr::include_graphics("images/05/05_17Cotransport-L.jpg")
+ ```
+ </div>
+ </div>
 
 ## **5.5** Bulk transport
 - Large molecules cross the membrane in bulk by mechanisms that involve packaging in vesicles
@@ -179,3 +184,83 @@ knitr::include_graphics("images/05/05_08MembraneSynthesis-L.jpg")
     ```{r endocytosis, echo = FALSE, out.height = "300px", fig.align = "center"}
     knitr::include_graphics("images/05/05_18_Endocytosis-L.jpg")
     ```
+
+    - **Phagocytosis:** cell engulfs a particle by wrapping pseudopodia around it, "cellular eating"
+    - **Pinocytosis:** cell continually gulps droplets of extracellular fluid, "cellular drinking"
+        - Nonspecific for the substances it transports
+        - Plasma membrane is coated on the cytoplasmic side with a fuzzy layer of proteins
+    - **Receptor-mediated endocytosis:** specialized pinocytosis, specific solutes bind to embedded receptor sites
+        - Relatively more bound molecules, but other molecules are also present
+        - Receptor proteins are recycled to the plasma membrane by the same vesicle
+
+## **5.6** Cell signaling
+
+#### Local and long-distance signaling:
+- Chemical messages sent out from cells are targeted to other cells that may not be immediately adjacent
+- Cells may communicate through direct contact:
+    - Cell junctions that directly connect the cytoplasms of adjacent cells
+    - Direct contact between membrane-bound cell-surface molecules in cell-cell recognition
+- In other cases, signaling cells secrete messenger molecules:
+    - **Local regulators** travel only short distances ^[(a, b)](#fig:loclongsig)^
+    - **Hormones** are used for long-distance signaling ^[(c)](#fig:loclongsig)^
+
+    ```{r loclongsig, echo = FALSE, out.height = "275px", fig.cap = "Signaling"}
+    knitr::include_graphics("images/05/05_19_LocalLongDistance-L.jpg")
+    ```
+
+    - **Paracrine signaling:** a secreting cell acts on nearby target cells by discharging local regulators into the extracellular fluid
+    - **Synaptic signaling:** a nerve cell releases neurotransmitter molecules into a synapse, stimulating the target cell. More specialized type of local signaling.
+    - **Endocrine** (hormonal) **signaling:** specialized endocrine cells secrete hormones into body fluids. Hormones reach all body cells, but are bound only by target cells.
+
+#### The three stages of cell signaling:
+
+```{r sigstages, echo = FALSE, out.height = "175px", fig.align = "center"}
+knitr::include_graphics("images/05/05_20CellSigOverview_3-L.jpg")
+```
+
+1. **Reception:** target cell's detection of a signaling molecule
+    - Signaling molecule binds to a receptor protein located at the cell's surface or inside the cell
+2. **Transduction:** steps that convert the signal to a form that can bring about a specific cellular response
+    - **Signal transduction pathway:** a sequence of changes in a series of different relay molecules
+3. Transduced signal triggers a **response**
+
+#### Reception: ^[**Receptor tyrosine kinases** are discussed in the unabridged textbook]
+- Signaling molecule behaves as a **ligand**, a molecule that specifically binds to another molecule
+    - Ligand binding causes a receptor protein to undergo a change in shape, directly activating the receptor
+    - Most signal receptors are plasma membrane proteins with water-soluble ligands
+- **G protein-coupled receptor** (GPCR)**:**
+
+    ```{r gpcr, echo = FALSE, out.height = "250px", fig.align = "center"}
+    knitr::include_graphics("images/05/05_21GProteinCoupled_2-L.jpg")
+    ```
+
+    - **G protein:** binds the energy-rich molecule GTP
+    1. Signaling molecule binds to the extracellular side of the receptor. Activated receptor binds and activates a G protein.
+    2. Activated G protein (carrying GTP) leaves the receptor and binds to an enzyme, altering its shape. Activated enzyme triggers the next step leading to a cellular response.
+    - Binding and changes in shape are temporary, molecules soon become available for reuse
+        - G protein hydrolyzes GTP to GDP and a phosphate ion
+        - Inactive G protein leaves the enzyme, which returns to its original state
+    - Many signaling molecules use GPCRs, all GPCRs are remarkably similar in structure
+- **Ligand-gated ion channel:**
+
+    ```{r lgion, echo = FALSE, out.height = "250px", fig.align = "center"}
+    knitr::include_graphics("images/05/05_22IonChannelRecepts_3-L.jpg")
+    ```
+
+    - Membrane receptor with a region that acts as a gate when a certain shape is assumed
+    - Gate opens or closes when a signaling molecule binds as a ligand on the extracellular side
+    - Allows or blocks the diffusion of specific ions through a channel in the protein
+    - Important in the nervous system, neurotransmitter molecules released at a synapse bind to ion channels on the receiving cell
+
+<div class="flex">
+<div class="flex-text">
+- Intracellular receptors:
+    - Found in either the cytoplasm or nucleus of target cells
+    -
+</div>
+<div class="flex-img">
+```{r steroidhormone, echo = FALSE, out.height = "350px", fig.align = "center"}
+knitr::include_graphics("images/05/05_23_SteroidHormone-L.jpg")
+```
+</div>
+</div>

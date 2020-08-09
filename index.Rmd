@@ -19,6 +19,7 @@ title: "AP Bio Notes"
         if (!x || x < 1 || x > 43 || parseInt(x) != x) {
             window.alert("Invalid chapter number");
         } else {
+            x = parseInt(x);
             if (x < 10)
                 x = "0" + x;
             var link = document.createElement("a");

@@ -2,9 +2,9 @@
 
 ## **3.1** Carbon
 - Can form large, complex molecules by bonding to up to four other atoms
--
+- (hm wtf looks like I don't have a lot of notes for 3.1)
 
-#### Chemical groups
+#### Chemical groups:
 
 ```{r chemgroups, echo = FALSE, out.height = "500px"}
 knitr::include_graphics("images/03/03_05_ChemicalGroups-L.jpg")
