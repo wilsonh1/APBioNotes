@@ -1,6 +1,7 @@
 # **2** The Chemical Context of Life {#chem}
 
 ## **2.1-4** chem lol
+<a class="footref">^&dagger;^</a><span class="footbody" style="display: none">Go ask chemgod</span>
 
 ## **2.5** Water
 - Structure and interactions:
@@ -61,3 +62,5 @@
 - Strong acids/bases dissociate completely, while weak acids/bases reversibly release and accept ions
 - **pH:** log scale for measuring hydrogen ion concentration. Values less than 7 are acidic, above 7 is basic.
 - **Buffer:** a substance that minimizes changes in the concentrations of H^+^ and OH^-^. Donates hydrogen ions when they are depleted and accepts ions when they are in excess.
+
+<script src="js/footnotes.js"></script>

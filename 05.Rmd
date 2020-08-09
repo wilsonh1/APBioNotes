@@ -13,7 +13,7 @@ knitr::include_graphics("images/05/05_02_PlasmaMembrane-L.jpg")
     - **Amphipathic:** has both a hydrophilic region and a hydrophobic region. Bilayer arrangement shelters the hydrophobic tails while exposing the hydrophilic heads to water.
 </div>
 <div class="flex-img">
-```{r phospholipid, out.height = "200px", echo = FALSE}
+```{r phospholipid, echo = FALSE, out.height = "200px"}
 knitr::include_graphics("images/05/05_03PhosphoLipidBilayer-L.jpg")
 ```
 </div>
@@ -95,10 +95,10 @@ knitr::include_graphics("images/05/05_08MembraneSynthesis-L.jpg")
     - No work must be done, concentration gradient represents potential energy and drives diffusion
 
 #### Water balance:
-- Osmosis: diffusion of water across a selectively permeable membrane
+- **Osmosis:** diffusion of water across a selectively permeable membrane
     - Some of the water is clustered around hydrophilic solute molecules and unable to cross the membrane
     - Water diffuses from the region of lower solute concentration (higher free water concentration) to that of higher solute concentration (lower free water concentration)
-- Tonicity: the ability of a solution to cause a cell to gain or lose water
+- **Tonicity:** the ability of a solution to cause a cell to gain or lose water
     - Depends on the solution's concentration of solutes that cannot cross the membrane
 
     ```{r osmosis, echo = FALSE, out.height = "250px", fig.align = "center"}
@@ -159,14 +159,14 @@ knitr::include_graphics("images/05/05_08MembraneSynthesis-L.jpg")
     - Return of H^+^ coupled with the transport of sucrose
 </div>
 <div class="flex-img">
- ```{r cotransport, echo = FALSE, out.height = "200px", fig.align = "center"}
- knitr::include_graphics("images/05/05_17Cotransport-L.jpg")
- ```
- </div>
- </div>
+```{r cotransport, echo = FALSE, out.height = "200px"}
+knitr::include_graphics("images/05/05_17Cotransport-L.jpg")
+```
+</div>
+</div>
 
 ## **5.5** Bulk transport
-- Large molecules cross the membrane in bulk by mechanisms that involve packaging in vesicles
+- Large molecules cross the membrane by mechanisms that involve packaging in vesicles
 - Requires energy
 
 #### Exocytosis:
@@ -224,30 +224,35 @@ knitr::include_graphics("images/05/05_20CellSigOverview_3-L.jpg")
     - **Signal transduction pathway:** a sequence of changes in a series of different relay molecules
 3. Transduced signal triggers a **response**
 
-#### Reception: ^[**Receptor tyrosine kinases** are discussed in the unabridged textbook]
+#### Reception:
 - Signaling molecule behaves as a **ligand**, a molecule that specifically binds to another molecule
     - Ligand binding causes a receptor protein to undergo a change in shape, directly activating the receptor
-    - Most signal receptors are plasma membrane proteins with water-soluble ligands
+    - Most signal receptors are plasma membrane proteins with water-soluble ligands <a class="footref">^&dagger;^</a><span class="footbody" style="display: none">**Receptor tyrosine kinases** are discussed in the unabridged textbook, may appear on the AP test</span>
 - **G protein-coupled receptor** (GPCR)**:**
-
-    ```{r gpcr, echo = FALSE, out.height = "250px", fig.align = "center"}
-    knitr::include_graphics("images/05/05_21GProteinCoupled_2-L.jpg")
-    ```
-
     - **G protein:** binds the energy-rich molecule GTP
+
+    <div class="flex">
+    <div class="flex-text">
     1. Signaling molecule binds to the extracellular side of the receptor. Activated receptor binds and activates a G protein.
     2. Activated G protein (carrying GTP) leaves the receptor and binds to an enzyme, altering its shape. Activated enzyme triggers the next step leading to a cellular response.
+    </div>
+    <div class="flex-img">
+    ```{r gpcr, echo = FALSE, out.height = "250px"}
+    knitr::include_graphics("images/05/05_21GProteinCoupled_2-L.jpg")
+    ```
+    </div>
+    </div>
+
     - Binding and changes in shape are temporary, molecules soon become available for reuse
         - G protein hydrolyzes GTP to GDP and a phosphate ion
         - Inactive G protein leaves the enzyme, which returns to its original state
     - Many signaling molecules use GPCRs, all GPCRs are remarkably similar in structure
-- **Ligand-gated ion channel:**
+- **Ligand-gated ion channel:** membrane receptor with a region that acts as a gate when a certain shape is assumed
 
     ```{r lgion, echo = FALSE, out.height = "250px", fig.align = "center"}
     knitr::include_graphics("images/05/05_22IonChannelRecepts_3-L.jpg")
     ```
 
-    - Membrane receptor with a region that acts as a gate when a certain shape is assumed
     - Gate opens or closes when a signaling molecule binds as a ligand on the extracellular side
     - Allows or blocks the diffusion of specific ions through a channel in the protein
     - Important in the nervous system, neurotransmitter molecules released at a synapse bind to ion channels on the receiving cell
@@ -256,11 +261,57 @@ knitr::include_graphics("images/05/05_20CellSigOverview_3-L.jpg")
 <div class="flex-text">
 - Intracellular receptors:
     - Found in either the cytoplasm or nucleus of target cells
-    -
+    - Signaling molecule must be hydrophobic enough to cross the membrane
+    - Testosterone: representative of steroid hormones
+        - Secreted by the testes and travels through the blood, entering cells all over the body. Only cells with receptors for testosterone respond
+        - Hormone-receptor complex enters the nucleus and turns on specific genes
+        - Receptor itself carries out the complete transduction of the signal
 </div>
 <div class="flex-img">
-```{r steroidhormone, echo = FALSE, out.height = "350px", fig.align = "center"}
+```{r steroidhormone, echo = FALSE, out.height = "350px"}
 knitr::include_graphics("images/05/05_23_SteroidHormone-L.jpg")
 ```
 </div>
 </div>
+
+#### Transduction:
+- Usually a multistep pathway, provides more coordination and the possibility of greatly amplifying a signal
+- Signal-activated receptor activates another molecule, which activates another molecule, and so on
+- Continues until the protein that produces the final cellular response is activated
+- Original signaling molecule is not passed along. The signal is transduced into different forms, commonly via a shape change in a protein
+- Protein phosphorylation:
+
+    ``` {r phoscascade, echo = FALSE, out.height = "325px", fig.align = "center"}
+    knitr::include_graphics("images/05/05_24_PhosCascade-L.jpg")
+    ```
+
+    - **Protein kinase:** enzyme that transfers phosphate groups from ATP to a protein. Many relay molecules are protein kinases.
+    - Phosphorylation cascade: a series of different molecules in a pathway are phosphorylated in turn
+    - **Protein phosphatase:** enzyme that removes phosphate groups, dephosphorylation
+        - Turns off signal transduction pathway when the initial signal is no longer present
+        - Make protein kinases available for reuse
+    - Phosphorylation-dephosphorylation acts as a molecular switch, turning an activity on or off as required
+- Small molecules and ions as **second messengers:**
+    - Small, nonprotein, and water-soluble, can spread readily throught the cell by diffusion
+    - Two most common second messengers are **cyclic AMP** (cAMP) and Ca^2+^
+
+    <div class="flex">
+    <div class="flex-text">
+    - G protein signaling pathway with cAMP:
+        - First messenger (signaling molecule) activates a GPCR and G protein
+        - G protein activates adenlyl cyclase, which catalyzes the conversion of ATP to cAMP
+        - cAMP activates another protein, usually protein kinase A, leading to cellular responses
+    </div>
+    <div class="flex-img">
+    ``` {r gpcrcamp, echo = FALSE, out.height = "275px"}
+    knitr::include_graphics("images/05/05_25cAMP2ndMessenger-L.jpg")
+    ```
+    </div>
+    </div>
+
+#### Response:
+- Regulation of one or more cellular activities
+- Final activated molecule may function as a transcription factor, ultimately regulating protein synthesis
+- Pathway may regulate the activity of a protein (epinephrine activates enzymes that catalyze the breakdown of glycogen)
+
+<script src="js/footnotes.js"></script>

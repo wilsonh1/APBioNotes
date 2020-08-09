@@ -10,24 +10,7 @@ title: "AP Bio Notes"
 
 ## Additional resources
 - [More notes](https://drive.google.com/file/d/1F60xvNtyReV8deqlMydJd0gAT008mWQZ/view){target="_blank"}
-- Download figures:  
+- Download figures:
     Chapter # (1-43) <input type="number" id="chapter" min="1" max="43"> <button type="button" id="download">Download</button>
 
-<script>
-    document.getElementById("download").onclick = function() {
-        var x = document.getElementById("chapter").value;
-        if (!x || x < 1 || x > 43 || parseInt(x) != x) {
-            window.alert("Invalid chapter number");
-        } else {
-            x = parseInt(x);
-            if (x < 10)
-                x = "0" + x;
-            var link = document.createElement("a");
-            link.target = "_blank";
-            link.href = "https://media.pearsoncmg.com/bc/bc_campbell_biologyinfocus_1_msa/student_art/" + x + "_art_for_students.zip"
-            document.body.appendChild(link);
-            link.click();
-            link.remove();
-        }
-    }
-</script>
+<script src="js/download.js"></script>
