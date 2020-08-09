@@ -22,7 +22,9 @@ h1 strong, h2 strong {
 
 div.flex {
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    margin-top: .85em;
+    margin-bottom: .85em
 }
 
 div.flex-text {
@@ -34,6 +36,11 @@ div.flex-text {
 div.flex-img {
     flex-grow: 0;
     flex-shrink: 0
+}
+
+div.flex-img img, div.flex-img p{
+    margin-top: 0em !important;
+    margin-bottom: 0em !important
 }
 
 div.figure {
@@ -51,11 +58,22 @@ div.figure img {
     margin-bottom: .85em
 }
 
-li p {
+li > p {
     margin-bottom: 0em !important
 }
 
-li img {
+li > p img, li > div.figure img {
     margin-top: .85em !important;
     margin-bottom: .85em !important
+}
+
+a.footref {
+    cursor: pointer
+}
+
+span.footbody {
+    border: 1px solid;
+    margin: 1em;
+    padding: .5em;
+    text-align: center
 }
