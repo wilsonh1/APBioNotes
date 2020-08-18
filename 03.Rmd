@@ -26,6 +26,7 @@ knitr::include_graphics("images/03/03_05_ChemicalGroups-L.jpg")
 
 <details>
     <summary><h4>Concept check</h4></summary>
+
 1. How are gasoline and fat chemically similar?
 
     > Both consist largely of hydrocarbon chains.
