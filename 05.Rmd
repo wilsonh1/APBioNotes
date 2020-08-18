@@ -101,7 +101,7 @@ knitr::include_graphics("images/05/05_08MembraneSynthesis-L.jpg")
 - **Tonicity:** the ability of a solution to cause a cell to gain or lose water
     - Depends on the solution's concentration of solutes that cannot cross the membrane
 
-    ```{r osmosis, echo = FALSE, out.height = "250px", fig.align = "center"}
+    ```{r osmosis, echo = FALSE, out.height = "225px", fig.align = "center"}
     knitr::include_graphics("images/05/05_11WaterBalance-L.jpg")
     ```
 
@@ -141,7 +141,6 @@ knitr::include_graphics("images/05/05_08MembraneSynthesis-L.jpg")
     ```
     </div>
     </div>
-
 
 #### Ion pumps maintain membrane potential:
 - Cytoplasmic side of the membrane is negative in charge relative to extracellular side
@@ -214,9 +213,9 @@ knitr::include_graphics("images/05/05_17Cotransport-L.jpg")
     knitr::include_graphics("images/05/05_19_LocalLongDistance-L.jpg")
     ```
 
-    - **Paracrine signaling:** a secreting cell acts on nearby target cells by discharging local regulators into the extracellular fluid
-    - **Synaptic signaling:** a nerve cell releases neurotransmitter molecules into a synapse, stimulating the target cell. More specialized type of local signaling.
-    - **Endocrine** (hormonal) **signaling:** specialized endocrine cells secrete hormones into body fluids. Hormones reach all body cells, but are bound only by target cells.
+    a. **Paracrine signaling:** a secreting cell acts on nearby target cells by discharging local regulators into the extracellular fluid
+    b. **Synaptic signaling:** a nerve cell releases neurotransmitter molecules into a synapse, stimulating the target cell. More specialized type of local signaling.
+    c. **Endocrine** (hormonal) **signaling:** specialized endocrine cells secrete hormones into body fluids. Hormones reach all body cells, but are bound only by target cells.
 
 #### The three stages of cell signaling:
 
@@ -233,9 +232,9 @@ knitr::include_graphics("images/05/05_20CellSigOverview_3-L.jpg")
 #### Reception:
 - Signaling molecule behaves as a **ligand**, a molecule that specifically binds to another molecule
     - Ligand binding causes a receptor protein to undergo a change in shape, directly activating the receptor
-    - Most signal receptors are plasma membrane proteins with water-soluble ligands <a class="footref">^&dagger;^</a><span class="footbody" style="display: none">**Receptor tyrosine kinases** are discussed in the unabridged textbook, may appear on the AP test</span>
+    - Most signal receptors are plasma membrane proteins with water-soluble ligands <a class="footref">^&dagger;^</a><span class="footbody" style="display: none">**Receptor tyrosine kinases** are discussed in the unabridged textbook and in class, may appear on the AP test</span>
 - **G protein-coupled receptor** (GPCR)**:**
-    - **G protein:** binds the energy-rich molecule GTP
+    - **G protein:** binds the energy-rich molecule GTP <a class="footref">^&dagger;^</a><span class="footbody" style="display: none">**Receptor tyrosine kinases** are discussed in the unabridged textbook, may appear on the AP test</span>
 
     <div class="flex">
     <div class="flex-text">
@@ -292,7 +291,7 @@ knitr::include_graphics("images/05/05_23_SteroidHormone-L.jpg")
     ```
 
     - **Protein kinase:** enzyme that transfers phosphate groups from ATP to a protein. Many relay molecules are protein kinases.
-    - Phosphorylation cascade: a series of different molecules in a pathway are phosphorylated in turn
+    - Phosphorylation cascade: a series of molecules in a pathway are phosphorylated in turn
     - **Protein phosphatase:** enzyme that removes phosphate groups, dephosphorylation
         - Turns off signal transduction pathway when the initial signal is no longer present
         - Make protein kinases available for reuse
@@ -304,7 +303,7 @@ knitr::include_graphics("images/05/05_23_SteroidHormone-L.jpg")
     <div class="flex">
     <div class="flex-text">
     - G protein signaling pathway with cAMP:
-        - First messenger (signaling molecule) activates a GPCR and G protein
+        - First messenger (signaling molecule) activates a GPCR
         - G protein activates adenlyl cyclase, which catalyzes the conversion of ATP to cAMP
         - cAMP activates another protein, usually protein kinase A, leading to cellular responses
     </div>

@@ -1,12 +1,62 @@
 # **3** Carbon and the Molecular Diversity of Life {#carbon}
+- **Organic compound:** a compound containing carbon-hydrogen bonds
 
 ## **3.1** Carbon
-- Can form large, complex molecules by bonding to up to four other atoms <a class="footref">^&dagger;^</a><span class="footbody" style="display: none">hm wtf looks like I don't have a lot of notes for 3.1</span>
+- Can form large, complex molecules by bonding to up to four other atoms <a class="footref">^&dagger;^</a><span class="footbody" style="display: none">There's some more ~~useless~~ chem discussed here, as well as in the unabridged textbook</span>
+
+#### Carbon skeletons:
+- Source of molecular diversity:
+    - Vary in length and may be straight, branched, or arranged in rings
+    - May have double bonds, which vary in number and location
+    - Atoms of other elements can be bonded at available sites
+- **Hydrocarbons:** organic molecules consisting of only carbon and hydrogen. Can undergo reactions that release a large amount of energy.
 
 #### Chemical groups:
+- Can replace one or more of the hydrogens bonded to the carbon skeleton of a hydrocarbon
+- The number and arrangement of chemical groups give each organic molecule its unique properties
 
-```{r chemgroups, echo = FALSE, out.height = "500px"}
+```{r chemgroups, echo = FALSE, out.height = "450px"}
 knitr::include_graphics("images/03/03_05_ChemicalGroups-L.jpg")
 ```
+
+- In some cases, chemical groups contribute to function by affecting the molecule's shape
+- **Functional groups:** in other cases, some groups are directly involved in chemical reactions
+    - Methyl group is not reactive, serves as a biological tag
+    - Except for the sulfhydryl group, they are hydrophilic
+
+<details>
+    <summary><h4>Concept check</h4></summary>
+1. How are gasoline and fat chemically similar?
+
+    > Both consist largely of hydrocarbon chains.
+
+2. What does the term amino acid signify about the structure of such a molecule?
+
+    > It has both an amino group (&mdash;NH~2~), which makes it an amine, and a carboxyl group (&mdash;COOH), which makes it a carboxylic acid.
+
+3.  Suppose you had an organic molecule such as cysteine, and you chemically removed the &mdash;NH~2~ group and replaced it with &mdash;COOH. How would this change the chemical properties of the molecule?
+
+    >A chemical group that can act as a base (by picking up H^+^) has been replaced with a group that can act as an acid, increasing the acidic properties of the molecule. The shape of the molecule would also change, likely changing the molecules with which it can interact.
+
+</details>
+
+## **3.2** Macromolecules
+- **Polymer:** long molecule consisting of many similar building blocks linked by covalent bonds  
+    **Monomers:** the repeating building blocks of a polymer
+
+#### Synthesis and breakdown:
+
+<div class="flex">
+<div class="flex-text">
+- Facilitated by **enzymes**
+a. **Dehydration reaction:** two monomers are covalently bonded, with the loss of a water molecule. Each monomer contributes part of the water molecule that is released.
+b. **Hydrolysis:** bond is broken by the addition of a water molecule. Essentially the reverse of the dehydration reaction.
+</div>
+<div class="flex-img">
+```{r polymers, echo = FALSE, out.height = "300px", fig.align = "center"}
+knitr::include_graphics("images/03/03_06_Polymers-L.jpg")
+```
+</div>
+</div>
 
 <script src="js/footnotes.js"></script>
