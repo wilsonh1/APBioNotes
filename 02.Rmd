@@ -1,7 +1,7 @@
 # **2** The Chemical Context of Life {#chem}
 
 ## **2.1-4** chem lol
-<a class="footref">^&dagger;^</a><span class="footbody" style="display: none">Go ask chemgod</span>
+<a class="footref">^&dagger;^</a><span class="footbody">Go ask chemgod</span>
 
 ## **2.5** Water
 - Structure and interactions:

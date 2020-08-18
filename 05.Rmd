@@ -232,10 +232,10 @@ knitr::include_graphics("images/05/05_20CellSigOverview_3-L.jpg")
 #### Reception:
 - Signaling molecule behaves as a **ligand**, a molecule that specifically binds to another molecule
     - Ligand binding causes a receptor protein to undergo a change in shape, directly activating the receptor
-    - Most signal receptors are plasma membrane proteins with water-soluble ligands <a class="footref">^&dagger;^</a><span class="footbody" style="display: none">**Receptor tyrosine kinases** are discussed in the unabridged textbook and in class, may appear on the AP test</span>
+    - Most signal receptors are plasma membrane proteins with water-soluble ligands <a class="footref">^&dagger;^</a><span class="footbody">**Receptor tyrosine kinases** are discussed in the unabridged textbook and in class, may appear on the AP test</span>
 - **G protein-coupled receptor** (GPCR)**:**
-    - **G protein:** binds the energy-rich molecule GTP <a class="footref">^&dagger;^</a><span class="footbody" style="display: none">**Receptor tyrosine kinases** are discussed in the unabridged textbook, may appear on the AP test</span>
-
+    - **G protein:** binds the energy-rich molecule GTP
+    
     <div class="flex">
     <div class="flex-text">
     1. Signaling molecule binds to the extracellular side of the receptor. Activated receptor binds and activates a G protein.

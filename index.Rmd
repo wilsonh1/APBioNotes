@@ -3,6 +3,9 @@ title: "AP Bio Notes"
 ---
 
 # Preface {-}
+- Review questions:
+    - Short answer: hover/click to reveal the suggested answer
+    - Multiple choice: click on an answer choice to check
 
 ## Textbooks
 - [Campbell Biology in Focus](https://drive.google.com/uc?export=download&id=1psB9_RvLbvb29f7wpxXm5B1moAnLgM9f){target="_blank"}

@@ -2,7 +2,7 @@
 - **Organic compound:** a compound containing carbon-hydrogen bonds
 
 ## **3.1** Carbon
-- Can form large, complex molecules by bonding to up to four other atoms <a class="footref">^&dagger;^</a><span class="footbody" style="display: none">There's some more ~~useless~~ chem discussed here, as well as in the unabridged textbook</span>
+- Can form large, complex molecules by bonding to up to four other atoms <a class="footref">^&dagger;^</a><span class="footbody">There's some more ~~useless~~ chem discussed here, as well as in the unabridged textbook</span>
 
 #### Carbon skeletons:
 - Source of molecular diversity:
@@ -25,19 +25,22 @@ knitr::include_graphics("images/03/03_05_ChemicalGroups-L.jpg")
     - Except for the sulfhydryl group, they are hydrophilic
 
 <details>
-    <summary><h4>Concept check</h4></summary>
+<summary><h4>Concept check</h4></summary>
 
 1. How are gasoline and fat chemically similar?
-
-    > Both consist largely of hydrocarbon chains.
+    <blockquote class="spoiler">
+    <p>Both consist largely of hydrocarbon chains.</p>
+    </blockquote>
 
 2. What does the term amino acid signify about the structure of such a molecule?
-
-    > It has both an amino group (&mdash;NH~2~), which makes it an amine, and a carboxyl group (&mdash;COOH), which makes it a carboxylic acid.
+    <blockquote class="spoiler">
+    <p>It has both an amino group (&mdash;NH~2~), which makes it an amine, and a carboxyl group (&mdash;COOH), which makes it a carboxylic acid.</p>
+    </blockquote>
 
 3.  Suppose you had an organic molecule such as cysteine, and you chemically removed the &mdash;NH~2~ group and replaced it with &mdash;COOH. How would this change the chemical properties of the molecule?
-
-    >A chemical group that can act as a base (by picking up H^+^) has been replaced with a group that can act as an acid, increasing the acidic properties of the molecule. The shape of the molecule would also change, likely changing the molecules with which it can interact.
+    <blockquote class="spoiler">
+    <p>A chemical group that can act as a base (by picking up H^+^) has been replaced with a group that can act as an acid, increasing the acidic properties of the molecule. The shape of the molecule would also change, likely changing the molecules with which it can interact.</p>
+    </blockquote>
 
 </details>
 
@@ -59,5 +62,64 @@ knitr::include_graphics("images/03/03_06_Polymers-L.jpg")
 ```
 </div>
 </div>
+
+## Test your understanding {.test}
+<details>
+<summary><h2>Test your understanding</h2></summary>
+
+1. Which functional group is _not_ present in this molecule?
+
+    ```{r 03testq1, echo = FALSE, out.height = "100px", fig.align = "left"}
+    knitr::include_graphics("images/03/03_UN07Test_Q1-L.jpg")
+    ```
+
+    a. <span class="choice">carboxyl</span> <span class="check">&cross;</span>
+    b. <span class="choice">sulfhydryl</span> <span class="check">&check;</span>
+    c. <span class="choice">hydroxyl</span> <span class="check">&cross;</span>
+    d. <span class="choice">amino</span> <span class="check">&cross;</span>
+
+2. Which chemical group is most likely to be responsible for an organic molecule behaving as a base?
+    a. <span class="choice">hydroxyl</span> <span class="check">&cross;</span>
+    b. <span class="choice">carbonyl</span> <span class="check">&cross;</span>
+    c. <span class="choice">carboxyl</span> <span class="check">&cross;</span>
+    d. <span class="choice">amino</span> <span class="check">&check;</span>
+    e. <span class="choice">phosphate</span> <span class="check">&cross;</span>
+
+3. Which of the following categories includes all others in the list?
+    a. <span class="choice">monosaccharide</span> <span class="check">&cross;</span>
+    b. <span class="choice">disaccharide</span> <span class="check">&cross;</span>
+    c. <span class="choice">starch</span> <span class="check">&cross;</span>
+    d. <span class="choice">carbohydrate</span> <span class="check">&check;</span>
+    e. <span class="choice">polysaccharide</span> <span class="check">&cross;</span>
+
+4. Which of the following statements concerning _unsaturated_ fats is true?
+    a. <span class="choice">They are more common in animals than in plants.</span> <span class="check">&cross;</span>
+    b. <span class="choice">They have double bonds in the carbon chains of their fatty acids.</span> <span class="check">&check;</span>
+    c. <span class="choice">They generally solidify at room temperature.</span> <span class="check">&cross;</span>
+    d. <span class="choice">They contain more hydrogen than do saturated fats having the same number of carbon atoms.</span> <span class="check">&cross;</span>
+    e. <span class="choice">They have fewer fatty acid molecules per fat molecule.</span> <span class="check">&cross;</span>
+
+5. The structural level of a protein _least_ affected by a disruption in hydrogen bonding is the
+    a. <span class="choice">primary level.</span> <span class="check">&check;</span>
+    b. <span class="choice">secondary level.</span> <span class="check">&cross;</span>
+    c. <span class="choice">tertiary level.</span> <span class="check">&cross;</span>
+    d. <span class="choice">quaternary level.</span> <span class="check">&cross;</span>
+    e. <span class="choice">All structural levels are equally affected.</span> <span class="check">&cross;</span>
+
+6. Which of the following hydrocarbons has a double bond in its carbon skeleton?
+    a. <span class="choice">C~3~H~8~</span> <span class="check">&cross;</span>
+    b. <span class="choice">C~2~H~6~</span> <span class="check">&cross;</span>
+    c. <span class="choice">CH~4~</span> <span class="check">&cross;</span>
+    d. <span class="choice">C~2~H~4~</span> <span class="check">&check;</span>
+    e. <span class="choice">C~2~H~2~</span> <span class="check">&cross;</span>
+
+7. The molecular formula for glucose is C~6~H~12~O6. What would be the molecular formula for a polymer made by linking ten glucose molecules together by dehydration reactions?
+    a. <span class="choice">C~60~H~120~O~60~</span> <span class="check">&cross;</span>
+    b. <span class="choice">C~6~H~12~O~6~</span> <span class="check">&cross;</span>
+    c. <span class="choice">C~60~H~102~O~51~</span> <span class="check">&check;</span>
+    d. <span class="choice">C~60~H~100~O~50~</span> <span class="check">&cross;</span>
+    e. <span class="choice">C~60~H~111~O~51~</span> <span class="check">&cross;</span>
+
+</details>
 
 <script src="js/footnotes.js"></script>
