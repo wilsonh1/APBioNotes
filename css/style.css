@@ -77,3 +77,12 @@ span.footbody {
     padding: .5em;
     text-align: center
 }
+
+summary {
+    margin-bottom: .85em;
+    outline: none
+}
+
+summary h4 {
+    display:inline
+}
