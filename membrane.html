@@ -79,6 +79,7 @@
 <li class="chapter" data-level="2" data-path="carbon.html"><a href="carbon.html"><i class="fa fa-check"></i><b>2</b> <strong>3</strong> Carbon and the Molecular Diversity of Life</a><ul>
 <li class="chapter" data-level="2.1" data-path="carbon.html"><a href="carbon.html#carbon-1"><i class="fa fa-check"></i><b>2.1</b> <strong>3.1</strong> Carbon</a></li>
 <li class="chapter" data-level="2.2" data-path="carbon.html"><a href="carbon.html#macromolecules"><i class="fa fa-check"></i><b>2.2</b> <strong>3.2</strong> Macromolecules</a></li>
+<li class="chapter" data-level="2.3" data-path="carbon.html"><a href="carbon.html#test-your-understanding"><i class="fa fa-check"></i><b>2.3</b> Test your understanding</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="membrane.html"><a href="membrane.html"><i class="fa fa-check"></i><b>3</b> <strong>5</strong> Membrane Transport and Cell Signaling</a><ul>
 <li class="chapter" data-level="3.1" data-path="membrane.html"><a href="membrane.html#cellular-membranes"><i class="fa fa-check"></i><b>3.1</b> <strong>5.1</strong> Cellular membranes</a></li>
@@ -443,11 +444,11 @@ Figure 3.3: Signaling
 <li>Signaling molecule behaves as a <strong>ligand</strong>, a molecule that specifically binds to another molecule
 <ul>
 <li>Ligand binding causes a receptor protein to undergo a change in shape, directly activating the receptor</li>
-<li>Most signal receptors are plasma membrane proteins with water-soluble ligands <a class="footref"><sup>†</sup></a><span class="footbody" style="display: none"><strong>Receptor tyrosine kinases</strong> are discussed in the unabridged textbook and in class, may appear on the AP test</span></li>
+<li>Most signal receptors are plasma membrane proteins with water-soluble ligands <a class="footref"><sup>†</sup></a><span class="footbody"><strong>Receptor tyrosine kinases</strong> are discussed in the unabridged textbook and in class, may appear on the AP test</span></li>
 </ul></li>
 <li><strong>G protein-coupled receptor</strong> (GPCR)<strong>:</strong>
 <ul>
-<li><strong>G protein:</strong> binds the energy-rich molecule GTP <a class="footref"><sup>†</sup></a><span class="footbody" style="display: none"><strong>Receptor tyrosine kinases</strong> are discussed in the unabridged textbook, may appear on the AP test</span></li>
+<li><strong>G protein:</strong> binds the energy-rich molecule GTP</li>
 </ul>
 <div class="flex">
 <div class="flex-text">
@@ -550,6 +551,25 @@ Figure 3.3: Signaling
 </div>
 </div>
 </div>
+<script>
+    var sp = document.getElementsByClassName("spoiler");
+    for (let i = 0; i < sp.length; i++) {
+        sp[i].onclick = function() {
+            this.classList.toggle("spoiler");
+        }
+    }
+
+    var mcq = document.getElementsByClassName("check");
+    for (let i = 0; i < mcq.length; i++) {
+        mcq[i].parentElement.onclick = function() {
+            if (mcq[i].style.display == "inline")
+                mcq[i].style.display = "none";
+            else {
+                mcq[i].style.display = "inline";
+            }
+        }
+    }
+</script>
             </section>
 
           </div>

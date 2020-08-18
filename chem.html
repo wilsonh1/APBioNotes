@@ -79,6 +79,7 @@
 <li class="chapter" data-level="2" data-path="carbon.html"><a href="carbon.html"><i class="fa fa-check"></i><b>2</b> <strong>3</strong> Carbon and the Molecular Diversity of Life</a><ul>
 <li class="chapter" data-level="2.1" data-path="carbon.html"><a href="carbon.html#carbon-1"><i class="fa fa-check"></i><b>2.1</b> <strong>3.1</strong> Carbon</a></li>
 <li class="chapter" data-level="2.2" data-path="carbon.html"><a href="carbon.html#macromolecules"><i class="fa fa-check"></i><b>2.2</b> <strong>3.2</strong> Macromolecules</a></li>
+<li class="chapter" data-level="2.3" data-path="carbon.html"><a href="carbon.html#test-your-understanding"><i class="fa fa-check"></i><b>2.3</b> Test your understanding</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="membrane.html"><a href="membrane.html"><i class="fa fa-check"></i><b>3</b> <strong>5</strong> Membrane Transport and Cell Signaling</a><ul>
 <li class="chapter" data-level="3.1" data-path="membrane.html"><a href="membrane.html#cellular-membranes"><i class="fa fa-check"></i><b>3.1</b> <strong>5.1</strong> Cellular membranes</a></li>
@@ -110,7 +111,7 @@
 <h1><span class="header-section-number">1</span> <strong>2</strong> The Chemical Context of Life</h1>
 <div id="chem-lol" class="section level2">
 <h2><span class="header-section-number">1.1</span> <strong>2.1-4</strong> chem lol</h2>
-<p><a class="footref"><sup>†</sup></a><span class="footbody" style="display: none">Go ask chemgod</span></p>
+<p><a class="footref"><sup>†</sup></a><span class="footbody">Go ask chemgod</span></p>
 </div>
 <div id="water" class="section level2">
 <h2><span class="header-section-number">1.2</span> <strong>2.5</strong> Water</h2>
@@ -207,6 +208,25 @@
 </div>
 </div>
 </div>
+<script>
+    var sp = document.getElementsByClassName("spoiler");
+    for (let i = 0; i < sp.length; i++) {
+        sp[i].onclick = function() {
+            this.classList.toggle("spoiler");
+        }
+    }
+
+    var mcq = document.getElementsByClassName("check");
+    for (let i = 0; i < mcq.length; i++) {
+        mcq[i].parentElement.onclick = function() {
+            if (mcq[i].style.display == "inline")
+                mcq[i].style.display = "none";
+            else {
+                mcq[i].style.display = "inline";
+            }
+        }
+    }
+</script>
             </section>
 
           </div>

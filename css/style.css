@@ -39,8 +39,8 @@ div.flex-img {
 }
 
 div.flex-img img, div.flex-img p{
-    margin-top: 0em !important;
-    margin-bottom: 0em !important
+    margin-top: 0 !important;
+    margin-bottom: 0 !important
 }
 
 div.figure {
@@ -59,7 +59,7 @@ div.figure img {
 }
 
 li > p {
-    margin-bottom: 0em !important
+    margin-bottom: 0 !important
 }
 
 li > p img, li > div.figure img {
@@ -75,23 +75,42 @@ span.footbody {
     border: 1px solid;
     margin: 1em;
     padding: .5em;
-    text-align: center
+    text-align: center;
+    display: none
 }
 
 summary {
-    margin-bottom: .85em;
+    cursor: pointer;
     outline: none
 }
 
-summary h4 {
-    display:inline
+summary h2, summary h4 {
+    display: inline-block
 }
 
-blockquote > * {
+details > ol > li {
+    margin-bottom: .85em
+}
+
+blockquote.spoiler > * {
+    margin-bottom: 0 !important;
     opacity: 0;
     transition: opacity .25s ease-in-out
 }
 
-blockquote:hover > * {
+blockquote.spoiler:hover > * {
     opacity: 1
+}
+
+.test > h2 {
+    display: none
+}
+
+span.choice {
+    cursor: pointer
+}
+
+span.check {
+    padding-left: .5em;
+    display: none
 }
