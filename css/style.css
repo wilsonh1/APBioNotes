@@ -86,3 +86,12 @@ summary {
 summary h4 {
     display:inline
 }
+
+blockquote > * {
+    opacity: 0;
+    transition: opacity .25s ease-in-out
+}
+
+blockquote:hover > * {
+    opacity: 1
+}
