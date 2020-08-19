@@ -59,7 +59,7 @@ knitr::include_graphics("images/05/05_07_MembProteinFxns-L.jpg")
 - A membrane has two distinct faces
 - Asymmetric arrangement of proteins, lipids, and attached carbohydrates is determined as the membrane is being built
 
-```{r synthesis, echo = FALSE, out.height = "325px", fig.align = "center"}
+```{r synthesis, echo = FALSE, out.height = "325px", fig.cap = "Synthesis"}
 knitr::include_graphics("images/05/05_08MembraneSynthesis-L.jpg")
 ```
 
@@ -67,6 +67,22 @@ knitr::include_graphics("images/05/05_08MembraneSynthesis-L.jpg")
 2. Inside the Golgi apparatus, glycoproteins undergo carbohydrate modification, and some lipids become glycolipids
 3. Synthesized membrane components are transported by vesicles
 4. As vesicles fuse with the plasma membrane, the outside face of the vesicle become continuous with the cytoplasmic face of the plasma membrane. Carbohydrates are positioned on the extracellular face.
+
+#### Concept check {.review}
+<details>
+<summary><h4>Concept check</h4></summary>
+
+1. The carbohydrates attached to some proteins and lipids of the plasma membrane are added as the membrane is made and refined in the ER and Golgi apparatus. The new membrane then forms transport vesicles that travel to the cell surface. On which side of the vesicle membrane are the carbohydrates?
+    <blockquote class="spoiler">
+    <p>They are on the inner side of the transport vesicle membrane.</p>
+    </blockquote>
+
+2. The soil immediately around hot springs is much warmer than that in neighboring regions. Two closely related species of native grasses are found, one in the warmer region and one in the cooler region. If you analyzed their membrane lipid compositions, what would you expect to find? Explain.
+    <blockquote class="spoiler">
+    <p>The grasses living in the cooler region would be expected to have more unsaturated fatty acids in their membranes because those fatty acids remain fluid at lower temperatures. The grasses living immediately adjacent to the hot springs would be expected to have more saturated fatty acids, which would allow the fatty acids to “stack” more closely, making the membranes less fluid and therefore helping them to stay intact at higher temperatures. (Cholesterol could not moderate the effects of temperature on membrane fluidity in this case because it is not found in appreciable quantities in plant cell membranes.)</p>
+    </blockquote>
+
+</details>
 
 ## **5.2** Membrane structure and permeability
 - **Selectively permeable:** allows some substances to cross more easily than others
@@ -80,6 +96,27 @@ knitr::include_graphics("images/05/05_08MembraneSynthesis-L.jpg")
     - **Aquaporins:** channel protein that facilitates the passage of water molecules
 - **Carrier proteins:** hold onto their passengers and change shape in a way that shuttles them across the membrane
 - A transport protein is specific to the substance it moves
+
+#### Concept check {.review}
+<details>
+<summary><h4>Concept check</h4></summary>
+
+1. Two molecules that can cross a lipid bilayer without help from membrane proteins are O~2~ and CO~2~. What property allows this to occur?
+    <blockquote class="spoiler">
+    <p>O~2~ and CO~2~ are both small, nonpolar molecules that can easily pass through the hydrophobic interior of a membrane.</p>
+    </blockquote>
+
+2. Why is a transport protein needed to move water molecules rapidly and in large quantities across a membrane?
+    <blockquote class="spoiler">
+    <p>Water is a polar molecule, so it cannot pass very rapidly through the hydrophobic region in the middle of a phospholipid bilayer.</p>
+    </blockquote>
+
+3. Aquaporins exclude passage of hydronium ions (H~3~O^+^). Recent research on fat metabolism has shown that some aquaporins allow passage of glycerol, a three-carbon alcohol, as well as H~2~O. Since H~3~O^+^ is much closer in size to water than is glycerol, what do you suppose is the basis of this selectivity?
+    <blockquote class="spoiler">
+    <p>The hydronium ion is charged, while glycerol is not. Charge is probably more significant than size as a basis for exclusion by the aquaporin channel.</p>
+    </blockquote>
+
+</details>
 
 ## **5.3** Passive transport
 - Diffusion of a substance across a membrane with no energy investment
@@ -120,6 +157,27 @@ knitr::include_graphics("images/05/05_08MembraneSynthesis-L.jpg")
 - **Ion channels:** channel protein that transports ions
     - **Gated channels:** open or close in response to a stimulus
 - Carrier proteins may change shape in response to the binding and release of the transported molecule
+
+#### Concept check {.review}
+<details>
+<summary><h4>Concept check</h4></summary>
+
+1. How do you think a cell performing cellular respiration rids itself of the resulting CO~2~?
+    <blockquote class="spoiler">
+    <p>CO~2~ is a nonpolar molecule that can diffuse through the plasma membrane. As long as it diffuses away so that the concentration remains low outside the cell, other CO~2~ molecules will continue to exit the cell in this way.</p>
+    </blockquote>
+
+2. In the supermarket, produce is often sprayed with water. Explain why this makes vegetables look crisp.
+    <blockquote class="spoiler">
+    <p>The water is hypotonic to the plant cells, so the plant cells take up water. Thus, the cells of the vegetable remain turgid, and the vegetable (for example, lettuce or spinach) remains crisp and does not wilt.</p>
+    </blockquote>
+
+3. If a _Paramecium caudatum_ cell swims from a hypotonic to an isotonic environment, will its contractile vacuole become more active or less? Why?
+    <blockquote class="spoiler">
+    <p>The _Paramecium caudatum’s_ contractile vacuole becomes less active. The vacuole pumps out excess water that accumulates in the cell; this accumulation occurs only in a hypotonic environment.</p>
+    </blockquote>
+
+</details>
 
 ## **5.4** Active transport
 - Some transport proteins can move solutes against their concentration gradients
@@ -164,11 +222,32 @@ knitr::include_graphics("images/05/05_08MembraneSynthesis-L.jpg")
     - Return of H^+^ coupled with the transport of sucrose
 </div>
 <div class="flex-img">
-```{r cotransport, echo = FALSE, out.height = "200px"}
+```{r cotransport, echo = FALSE, out.height = "200px", fig.cap = "Cotransport"}
 knitr::include_graphics("images/05/05_17Cotransport-L.jpg")
 ```
 </div>
 </div>
+
+#### Concept check {.review}
+<details>
+<summary><h4>Concept check</h4></summary>
+
+1. Sodium-potassium pumps help nerve cells establish a voltage across their plasma membranes. Do these pumps use ATP or produce ATP? Explain.
+    <blockquote class="spoiler">
+    <p>The pump uses ATP. To establish a voltage, ions have to be pumped against their gradients, which requires energy.</p>
+    </blockquote>
+
+2. Explain why the sodium-potassium pump would not be considered a cotransporter.
+    <blockquote class="spoiler">
+    <p>Each ion is being transported against its electrochemical gradient. If either ion were transported down its electrochemical gradient, this process would be considered cotransport</p>
+    </blockquote>
+
+3.  Given the internal environment of a lysosome, what transport protein might you expect to see in its membrane?
+    <blockquote class="spoiler">
+    <p>The internal environment of a lysosome is acidic, so it has a higher concentration of H^+^ than does the cytosol. Therefore, you might expect the membrane of the lysosome to have a proton pump to pump H^+^ into the lysosome.</p>
+    </blockquote>
+
+</details>
 
 ## **5.5** Bulk transport
 - Large molecules cross the membrane by mechanisms that involve packaging in vesicles
@@ -197,6 +276,29 @@ knitr::include_graphics("images/05/05_17Cotransport-L.jpg")
     - **Receptor-mediated endocytosis:** specialized pinocytosis, specific solutes bind to embedded receptor sites
         - Relatively more bound molecules, but other molecules are also present
         - Receptor proteins are recycled to the plasma membrane by the same vesicle
+
+#### Concept check {.review}
+<details>
+<summary><h4>Concept check</h4></summary>
+
+1. As a cell grows, its plasma membrane expands. Does this involve endocytosis or exocytosis? Explain.
+    <blockquote class="spoiler">
+    <p>Exocytosis. When a transport vesicle fuses with the plasma membrane, the vesicle membrane becomes part of the plasma membrane.</p>
+    </blockquote>
+
+2. Return to [Figure](#fig:synthesis), and circle a patch of plasma membrane that is coming from a vesicle involved in exocytosis.
+    <blockquote class="spoiler">
+    ```{r 05-5-CC2, echo = FALSE, out.width = "100px"}
+    knitr::include_graphics("images/05/05-5-CC2.png")
+    ```
+    </blockquote>
+
+3. Describe the cellular pathway of synthesis and deposition of an ECM glycoprotein.
+    <blockquote class="spoiler">
+    <p>The glycoprotein would be synthesized in the ER lumen, move through the Golgi apparatus, and then travel in a vesicle to the plasma membrane, where it would undergo exocytosis and become part of the ECM.</p>
+    </blockquote>
+
+</details>
 
 ## **5.6** Cell signaling
 
@@ -235,7 +337,7 @@ knitr::include_graphics("images/05/05_20CellSigOverview_3-L.jpg")
     - Most signal receptors are plasma membrane proteins with water-soluble ligands <a class="footref">^&dagger;^</a><span class="footbody">**Receptor tyrosine kinases** are discussed in the unabridged textbook and in class, may appear on the AP test</span>
 - **G protein-coupled receptor** (GPCR)**:**
     - **G protein:** binds the energy-rich molecule GTP
-    
+
     <div class="flex">
     <div class="flex-text">
     1. Signaling molecule binds to the extracellular side of the receptor. Activated receptor binds and activates a G protein.
@@ -318,5 +420,74 @@ knitr::include_graphics("images/05/05_23_SteroidHormone-L.jpg")
 - Regulation of one or more cellular activities
 - Final activated molecule may function as a transcription factor, ultimately regulating protein synthesis
 - Pathway may regulate the activity of a protein (epinephrine activates enzymes that catalyze the breakdown of glycogen)
+
+#### Concept check {.review}
+<details>
+<summary><h4>Concept check</h4></summary>
+
+1. Explain how nerve cells provide examples of both local and long-distance signaling.
+    <blockquote class="spoiler">
+    <p>The secretion of neurotransmitter molecules at a synapse is an example of local signaling. The electrical signal that travels along a very long nerve cell and is passed to the next nerve cell can be considered an example of long-distance signaling. (Note, however, that local signaling at the synapse between two cells is necessary for the signal to pass from one cell to the next.)</p>
+    </blockquote>
+
+2. When a signal transduction pathway involves a phosphorylation cascade, what turns off the cell’s response?
+    <blockquote class="spoiler">
+    <p>Protein phosphatases reverse the effects of the kinases.</p>
+    </blockquote>
+
+3. How can a target cell’s response to a single hormone molecule result in a response that affects a million other molecules?
+    <blockquote class="spoiler">
+    <p>At each step in a cascade of sequential activations, one molecule or ion may activate numerous molecules functioning in the next step.</p>
+    </blockquote>
+
+</details>
+
+## Test your understanding {#test05 .review}
+<details>
+<summary><h2>Test your understanding</h2></summary>
+
+1. In what way do the membranes of a eukaryotic cell vary?
+    a. <span class="choice">Phospholipids are found only in certain membranes.</span> <span class="check">&cross;</span>
+    b. <span class="choice">Certain proteins are unique to each kind of membrane.</span> <span class="check">&check;</span>
+    c. <span class="choice">Only certain membranes of the cell are selectively permeable.</span> <span class="check">&cross;</span>
+    d. <span class="choice">Only certain membranes are constructed from amphipathic molecules.</span> <span class="check">&cross;</span>
+    e. <span class="choice">Some membranes have hydrophobic surfaces exposed to the cytoplasm, while others have hydrophilic surfaces facing the cytoplasm.</span> <span class="check">&cross;</span>
+
+2. Which of the following factors would tend to increase membrane fluidity?
+    a. <span class="choice">a greater proportion of unsaturated phospholipids</span> <span class="check">&check;</span>
+    b. <span class="choice">a greater proportion of saturated phospholipids</span> <span class="check">&cross;</span>
+    c. <span class="choice">a lower temperature</span> <span class="check">&cross;</span>
+    d. <span class="choice">a relatively high protein content in the membrane</span> <span class="check">&cross;</span>
+    e. <span class="choice">a greater proportion of relatively large glycolipids compared with lipids having smaller molecular masses</span> <span class="check">&cross;</span>
+
+3. Phosphorylation cascades involving a series of protein kinases are useful for cellular signal transduction because
+    a. <span class="choice">they are species specific.</span> <span class="check">&cross;</span>
+    b. <span class="choice">they always lead to the same cellular response.</span> <span class="check">&cross;</span>
+    c. <span class="choice">they amplify the original signal manyfold.</span> <span class="check">&check;</span>
+    d. <span class="choice">they counter the harmful effects of phosphatases.</span> <span class="check">&cross;</span>
+    e. <span class="choice">the number of molecules used is small and fixed.</span> <span class="check">&cross;</span>
+
+4. Lipid-soluble signaling molecules, such as testosterone, cross the membranes of all cells but affect only target cells because
+    a. <span class="choice">only target cells retain the appropriate DNA segments.</span> <span class="check">&cross;</span>
+    b. <span class="choice">intracellular receptors are present only in target cells.</span> <span class="check">&check;</span>
+    c. <span class="choice">most cells lack the Y chromosome required.</span> <span class="check">&cross;</span>
+    d. <span class="choice">only target cells possess the cytosolic enzymes that transduce the testosterone.</span> <span class="check">&cross;</span>
+    e. <span class="choice">only in target cells is testosterone able to initiate a phosphorylation cascade.</span> <span class="check">&cross;</span>
+
+5. Which of the following processes includes all the others?
+    a. <span class="choice">osmosis</span> <span class="check">&cross;</span>
+    b. <span class="choice">diffusion of a solute across a membrane</span> <span class="check">&cross;</span>
+    c. <span class="choice">facilitated diffusion</span> <span class="check">&cross;</span>
+    d. <span class="choice">passive transport</span> <span class="check">&check;</span>
+    e. <span class="choice">transport of an ion down its electrochemical gradient</span> <span class="check">&cross;</span>
+
+6. Based on [Figure](#fig:cotransport), which of these experimental treatments would increase the rate of sucrose transport into the cell?
+    a. <span class="choice">decreasing extracellular sucrose concentration</span> <span class="check">&cross;</span>
+    b. <span class="choice">decreasing extracellular pH</span> <span class="check">&check;</span>
+    c. <span class="choice">decreasing cytoplasmic pH</span> <span class="check">&cross;</span>
+    d. <span class="choice">adding an inhibitor that blocks regeneration of ATP</span> <span class="check">&cross;</span>
+    e. <span class="choice">adding a substance that makes the membrane more permeable to hydrogen ions</span> <span class="check">&cross;</span>
+
+</details>
 
 <script src="js/footnotes.js"></script>

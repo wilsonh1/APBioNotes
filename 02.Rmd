@@ -63,4 +63,98 @@
 - **pH:** log scale for measuring hydrogen ion concentration. Values less than 7 are acidic, above 7 is basic.
 - **Buffer:** a substance that minimizes changes in the concentrations of H^+^ and OH^-^. Donates hydrogen ions when they are depleted and accepts ions when they are in excess.
 
+#### Concept check {.review}
+<details>
+<summary><h4>Concept check</h4></summary>
+
+1. Describe how properties of water contribute to the upward movement of water in a tree.
+    <blockquote class="spoiler">
+    <p>Hydrogen bonds hold neighboring water molecules together. This cohesion helps the chain of water molecules move upward against gravity in water-conducting cells as water evaporates from the leaves. Adhesion between water molecules and the walls of the water-conducting cells also helps counter gravity.</p>
+    </blockquote>
+
+2. How can the freezing of water crack boulders?
+    <blockquote class="spoiler">
+    <p>As water freezes, it expands because water molecules move farther apart in forming ice crystals. When there is water in a crevice of a boulder, expansion due to freezing may crack the boulder.</p>
+    </blockquote>
+
+3. The concentration of the appetite-regulating hormone ghrelin is about 1.3 $\times$ 10^–10^ _M_ in a fasting person. How many molecules of ghrelin are in 1 L of blood?
+    <blockquote class="spoiler">
+    <p>A liter of blood would contain 7.8 $\times$ 10^13^ molecules of ghrelin (1.3 $\times$ 10^–10^ moles per liter $\times$ 6.02 $\times$ 10^23^ molecules per mole).</p>
+    </blockquote>
+
+4. Compared with a basic solution at pH 9, the same volume of an acidic solution at pH 4 has ___ times as many hydrogen ions (H^+^).
+    <blockquote class="spoiler">
+    <p>10^5^</p>
+    </blockquote>
+
+5. What would be the effect on the properties of the water molecule if oxygen and hydrogen had equal electronegativity?
+    <blockquote class="spoiler">
+    <p>The covalent bonds of water molecules would not be polar, and water molecules would not form hydrogen bonds with each other.</p>
+    </blockquote>
+
+</details>
+
+## Test your understanding {#test02 .review}
+<details>
+<summary><h2>Test your understanding</h2></summary>
+
+1. The reactivity of an atom arises from
+    a. <span class="choice">the average distance of the outermost electron shell from the nucleus.</span> <span class="check">&cross;</span>
+    b. <span class="choice">the existence of unpaired electrons in the valence shell.</span> <span class="check">&check;</span>
+    c. <span class="choice">the sum of the potential energies of all the electron shells.</span> <span class="check">&cross;</span>
+    d. <span class="choice">the potential energy of the valence shell.</span> <span class="check">&cross;</span>
+    e. <span class="choice">the energy differences between the electron shells.</span> <span class="check">&cross;</span>
+
+2. Which of the following statements correctly describes any chemical reaction that has reached equilibrium?
+    a. <span class="choice">The concentrations of products and reactants are equal.</span> <span class="check">&cross;</span>
+    b. <span class="choice">The reaction is now irreversible.</span> <span class="check">&cross;</span>
+    c. <span class="choice">Both forward and reverse reactions have halted.</span> <span class="check">&cross;</span>
+    d. <span class="choice">The rates of the forward and reverse reactions are equal.</span> <span class="check">&check;</span>
+    e. <span class="choice">No reactants remain.</span> <span class="check">&cross;</span>
+
+3. Many mammals control their body temperature by sweating. Which property of water is most directly responsible for the ability of sweat to lower body temperature?
+    a. <span class="choice">water’s change in density when it condenses</span> <span class="check">&cross;</span>
+    b. <span class="choice">water’s ability to dissolve molecules in the air</span> <span class="check">&cross;</span>
+    c. <span class="choice">the release of heat by the formation of hydrogen bonds</span> <span class="check">&cross;</span>
+    d. <span class="choice">the absorption of heat by the breaking of hydrogen bonds</span> <span class="check">&check;</span>
+    e. <span class="choice">water’s high surface tension</span> <span class="check">&cross;</span>
+
+4. We can be sure that a mole of table sugar and a mole of vitamin C are equal in their
+    a. <span class="choice">mass in daltons.</span> <span class="check">&cross;</span>
+    b. <span class="choice">mass in grams.</span> <span class="check">&check;</span>
+    c. <span class="choice">volume.</span> <span class="check">&cross;</span>
+    d. <span class="choice">number of atoms.</span> <span class="check">&cross;</span>
+    e. <span class="choice">number of molecules.</span> <span class="check">&cross;</span>
+
+5. Measurements show that the pH of a particular lake is 4.0. What is the hydrogen ion concentration of the lake?
+    a. <span class="choice">4.0 _M_</span> <span class="check">&cross;</span>
+    b. <span class="choice">10^-10^ _M_</span> <span class="check">&cross;</span>
+    c. <span class="choice">10^-4^ _M_</span> <span class="check">&check;</span>
+    d. <span class="choice">10^4^ _M_</span> <span class="check">&cross;</span>
+    e. <span class="choice">4%</span> <span class="check">&cross;</span>
+
+6. The atomic number of sulfur is 16. Sulfur combines with hydrogen by covalent bonding to form a compound, hydrogen sulfide. Based on the number of valence electrons in a sulfur atom, predict the molecular formula of the compound.
+    a. <span class="choice">HS</span> <span class="check">&cross;</span>
+    b. <span class="choice">HS~2~</span> <span class="check">&cross;</span>
+    c. <span class="choice">H~2~S</span> <span class="check">&check;</span>
+    d. <span class="choice">H~3~S~2~</span> <span class="check">&cross;</span>
+    e. <span class="choice">H~4~S</span> <span class="check">&cross;</span>
+
+7. What coefficients must be placed in the following blanks so that all atoms are accounted for in the products? C~6~H~12~O~6~ &rarr; ___ C~2~H~6~O + ___ CO
+~2~
+    a. <span class="choice">1; 2</span> <span class="check">&cross;</span>
+    b. <span class="choice">3; 1</span> <span class="check">&cross;</span>
+    c. <span class="choice">1; 3</span> <span class="check">&cross;</span>
+    d. <span class="choice">1; 1</span> <span class="check">&cross;</span>
+    e. <span class="choice">2; 2</span> <span class="check">&check;</span>
+
+8. A slice of pizza has 500 kcal. If we could burn the pizza and use all the heat to warm a 50-L container of cold water, what would be the approximate increase in the temperature of the water?
+    a. <span class="choice">50&deg;C</span> <span class="check">&cross;</span>
+    b. <span class="choice">5&deg;C</span> <span class="check">&cross;</span>
+    c. <span class="choice">1&deg;C</span> <span class="check">&cross;</span>
+    d. <span class="choice">100&deg;C</span> <span class="check">&cross;</span>
+    e. <span class="choice">10&deg;C</span> <span class="check">&check;</span>
+
+</details>
+
 <script src="js/footnotes.js"></script>

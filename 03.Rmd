@@ -24,6 +24,7 @@ knitr::include_graphics("images/03/03_05_ChemicalGroups-L.jpg")
     - Methyl group is not reactive, serves as a biological tag
     - Except for the sulfhydryl group, they are hydrophilic
 
+#### Concept check {.review}
 <details>
 <summary><h4>Concept check</h4></summary>
 
@@ -63,7 +64,7 @@ knitr::include_graphics("images/03/03_06_Polymers-L.jpg")
 </div>
 </div>
 
-## Test your understanding {.test}
+## Test your understanding {#test03 .review}
 <details>
 <summary><h2>Test your understanding</h2></summary>
 
@@ -113,7 +114,7 @@ knitr::include_graphics("images/03/03_06_Polymers-L.jpg")
     d. <span class="choice">C~2~H~4~</span> <span class="check">&check;</span>
     e. <span class="choice">C~2~H~2~</span> <span class="check">&cross;</span>
 
-7. The molecular formula for glucose is C~6~H~12~O6. What would be the molecular formula for a polymer made by linking ten glucose molecules together by dehydration reactions?
+7. The molecular formula for glucose is C~6~H~12~O~6~. What would be the molecular formula for a polymer made by linking ten glucose molecules together by dehydration reactions?
     a. <span class="choice">C~60~H~120~O~60~</span> <span class="check">&cross;</span>
     b. <span class="choice">C~6~H~12~O~6~</span> <span class="check">&cross;</span>
     c. <span class="choice">C~60~H~102~O~51~</span> <span class="check">&check;</span>

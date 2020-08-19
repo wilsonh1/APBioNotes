@@ -6,14 +6,14 @@
         }
     }
 
-    var mcq = document.getElementsByClassName("check");
+    var mcq = document.getElementsByClassName("choice");
     for (let i = 0; i < mcq.length; i++) {
-        mcq[i].parentElement.onclick = function() {
-            if (mcq[i].style.display == "inline")
-                mcq[i].style.display = "none";
-            else {
-                mcq[i].style.display = "inline";
-            }
+        mcq[i].onclick = function() {
+            let check = this.nextElementSibling;
+            if (check.style.display == "inline")
+                check.style.display = "none";
+            else
+                check.style.display = "inline";
         }
     }
 </script>
