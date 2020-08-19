@@ -75,11 +75,12 @@
 <li class="chapter" data-level="1" data-path="chem.html"><a href="chem.html"><i class="fa fa-check"></i><b>1</b> <strong>2</strong> The Chemical Context of Life</a><ul>
 <li class="chapter" data-level="1.1" data-path="chem.html"><a href="chem.html#chem-lol"><i class="fa fa-check"></i><b>1.1</b> <strong>2.1-4</strong> chem lol</a></li>
 <li class="chapter" data-level="1.2" data-path="chem.html"><a href="chem.html#water"><i class="fa fa-check"></i><b>1.2</b> <strong>2.5</strong> Water</a></li>
+<li class="chapter" data-level="1.3" data-path="chem.html"><a href="chem.html#test02"><i class="fa fa-check"></i><b>1.3</b> Test your understanding</a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="carbon.html"><a href="carbon.html"><i class="fa fa-check"></i><b>2</b> <strong>3</strong> Carbon and the Molecular Diversity of Life</a><ul>
 <li class="chapter" data-level="2.1" data-path="carbon.html"><a href="carbon.html#carbon-1"><i class="fa fa-check"></i><b>2.1</b> <strong>3.1</strong> Carbon</a></li>
 <li class="chapter" data-level="2.2" data-path="carbon.html"><a href="carbon.html#macromolecules"><i class="fa fa-check"></i><b>2.2</b> <strong>3.2</strong> Macromolecules</a></li>
-<li class="chapter" data-level="2.3" data-path="carbon.html"><a href="carbon.html#test-your-understanding"><i class="fa fa-check"></i><b>2.3</b> Test your understanding</a></li>
+<li class="chapter" data-level="2.3" data-path="carbon.html"><a href="carbon.html#test03"><i class="fa fa-check"></i><b>2.3</b> Test your understanding</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="membrane.html"><a href="membrane.html"><i class="fa fa-check"></i><b>3</b> <strong>5</strong> Membrane Transport and Cell Signaling</a><ul>
 <li class="chapter" data-level="3.1" data-path="membrane.html"><a href="membrane.html#cellular-membranes"><i class="fa fa-check"></i><b>3.1</b> <strong>5.1</strong> Cellular membranes</a></li>
@@ -88,6 +89,7 @@
 <li class="chapter" data-level="3.4" data-path="membrane.html"><a href="membrane.html#active-transport"><i class="fa fa-check"></i><b>3.4</b> <strong>5.4</strong> Active transport</a></li>
 <li class="chapter" data-level="3.5" data-path="membrane.html"><a href="membrane.html#bulk-transport"><i class="fa fa-check"></i><b>3.5</b> <strong>5.5</strong> Bulk transport</a></li>
 <li class="chapter" data-level="3.6" data-path="membrane.html"><a href="membrane.html#cell-signaling"><i class="fa fa-check"></i><b>3.6</b> <strong>5.6</strong> Cell signaling</a></li>
+<li class="chapter" data-level="3.7" data-path="membrane.html"><a href="membrane.html#test05"><i class="fa fa-check"></i><b>3.7</b> Test your understanding</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="neurons.html"><a href="neurons.html"><i class="fa fa-check"></i><b>4</b> <strong>37</strong> Neurons, Synapses, and Signaling</a></li>
 </ul>
@@ -144,6 +146,9 @@
 <li>Except for the sulfhydryl group, they are hydrophilic</li>
 </ul></li>
 </ul>
+</div>
+<div id="concept-check" class="section level4 review">
+<h4><span class="header-section-number">2.1.0.3</span> Concept check</h4>
 <details>
 <summary>
 <h4>
@@ -197,7 +202,7 @@ A chemical group that can act as a base (by picking up H<sup>+</sup>) has been r
 </div>
 </div>
 </div>
-<div id="test-your-understanding" class="section level2 test">
+<div id="test03" class="section level2 review">
 <h2><span class="header-section-number">2.3</span> Test your understanding</h2>
 <details>
 <summary>
@@ -254,7 +259,7 @@ Test your understanding
 <li><span class="choice">C<sub>2</sub>H<sub>4</sub></span> <span class="check">✓</span></li>
 <li><span class="choice">C<sub>2</sub>H<sub>2</sub></span> <span class="check">✗</span></li>
 </ol></li>
-<li>The molecular formula for glucose is C<sub>6</sub>H<sub>12</sub>O6. What would be the molecular formula for a polymer made by linking ten glucose molecules together by dehydration reactions?
+<li>The molecular formula for glucose is C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>. What would be the molecular formula for a polymer made by linking ten glucose molecules together by dehydration reactions?
 <ol style="list-style-type: lower-alpha">
 <li><span class="choice">C<sub>60</sub>H<sub>120</sub>O<sub>60</sub></span> <span class="check">✗</span></li>
 <li><span class="choice">C<sub>6</sub>H<sub>12</sub>O<sub>6</sub></span> <span class="check">✗</span></li>
@@ -276,14 +281,14 @@ Test your understanding
         }
     }
 
-    var mcq = document.getElementsByClassName("check");
+    var mcq = document.getElementsByClassName("choice");
     for (let i = 0; i < mcq.length; i++) {
-        mcq[i].parentElement.onclick = function() {
-            if (mcq[i].style.display == "inline")
-                mcq[i].style.display = "none";
-            else {
-                mcq[i].style.display = "inline";
-            }
+        mcq[i].onclick = function() {
+            let check = this.nextElementSibling;
+            if (check.style.display == "inline")
+                check.style.display = "none";
+            else
+                check.style.display = "inline";
         }
     }
 </script>

@@ -79,6 +79,10 @@ span.footbody {
     display: none
 }
 
+.review > h2, .review > h4 {
+    display: none
+}
+
 summary {
     cursor: pointer;
     outline: none
@@ -100,10 +104,6 @@ blockquote.spoiler > * {
 
 blockquote.spoiler:hover > * {
     opacity: 1
-}
-
-.test > h2 {
-    display: none
 }
 
 span.choice {
