@@ -24,7 +24,7 @@ knitr::include_graphics("images/05/05_03PhosphoLipidBilayer-L.jpg")
     - Provides its hydrophobic parts with a nonaqueous environment
 - **Fluid mosaic model:** the membrane is a mosaic of protein molecules bobbing in a fluid phospholipid bilayer
 
-#### The fluidity of membranes:
+#### Membrane fluidity:
 - Most lipids and some proteins can shift about laterally:
     - Proteins are much larger and move more slowly
     - Some proteins movie in a directed manner, others can be held in place
