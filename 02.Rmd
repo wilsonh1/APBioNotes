@@ -32,9 +32,9 @@
     - Contributes to the stability of temperature in bodies of water and prevents organisms from overheating
 
 #### 3. Floating of ice on liquid water:
-- As liquid water freezes, it expands:
+- When liquid water freezes, it expands:
     - As the temperature falls, molecules move too slowly to break hydrogen bonds
-    - The bonds lock molecules in a crystalline lattice and hold the molecules apart, becoming less dense
+    - Hydrogen bonds lock molecules in a crystalline lattice and hold the molecules apart, becoming less dense
 - Floating ice insulates the liquid water below, preventing it from freezing and allowing life to exist
 
 #### 4. Versatility as a solvent:

@@ -75,7 +75,7 @@ knitr::include_graphics("images/03/03_06_Polymers-L.jpg")
 
 2. Suppose you eat a serving of fish. What reactions must occur for the amino acid monomers in the protein of the fish to be converted to new proteins in your body?
     <blockquote class="spoiler">
-    <p>The amino acids in the fish protein must be released in hydrolysis reactions and incorporated into other proteins in dehydration reactions.
+    <p>The amino acids in the fish protein must be released in hydrolysis reactions and incorporated into other proteins in dehydration reactions.</p>
     </blockquote>
 
 </details>
@@ -102,7 +102,7 @@ knitr::include_graphics("images/03/03_06_Polymers-L.jpg")
     - **Glycosidic linkage:** covalent bond formed between two monosaccharides
 </div>
 <div class="flex-img">
-```{r disaccharide, echo = FALSE, out.height = "150px"}
+```{r disaccharide, echo = FALSE, out.height = "175px"}
 knitr::include_graphics("images/03/03_09DisaccharideSynth_2-L.jpg")
 ```
 </div>
@@ -118,6 +118,50 @@ knitr::include_graphics("images/03/03_09DisaccharideSynth_2-L.jpg")
     - Animals store **glycogen**, a polymer of glucose that is more extensively branched
 - Structural polysaccharides:
     - **Cellulose:** a major component of tough plant cell walls
+        - Polymer of &beta; glucose with 1-4 glycosidic linkages, &alpha; glucose in starch
+
+        ```{r betaglucose, echo = FALSE, out.height = "175px", fig.align = "center"}
+        knitr::include_graphics("images/03/03_11_StarchCellulose-L.jpg")
+        ```
+
+        - Distinct three-dimensional shape:
+            - Starch and glycogen molecules are largely helical
+            - Cellulose is straight and never branched
+            - Parallel cellulose molecules are held together by hydrogen bonding, grouped into units called microfibrils
+        - Few organisms can digest cellulose. Enzymes that digest starch by hydrolyzing &alpha; linkages are unable to hydrolyze &beta; linkages.
+    - **Chitin:** used by arthopods to build exoskeletons and by fungi to build cell walls. Similar to cellulose except that the glucose monomer has a nitrogen-containing appendage.
+
+#### Concept check {.review}
+<details>
+<summary><h4>Concept check</h4></summary>
+
+1. Write the formula for a monosaccharide that has threecarbons.
+    <blockquote class="spoiler">
+    <p>C~3~H~6~O~3~</p>
+    </blockquote>
+
+2. A dehydration reaction joins two glucose molecules to form maltose. The formula for glucose is C~6~H~12~O~6~. What is the formula for maltose?
+    <blockquote class="spoiler">
+    <p>C~12~H~22~O~11~</p>
+    </blockquote>
+
+3. After a cow is given antibiotics to treat an infection, a vet gives the animal a drink of “gut culture” containing various prokaryotes. Why is this necessary?
+    <blockquote class="spoiler">
+    <p>The antibiotic treatment is likely to have killed the cellulose-digesting prokaryotes in the cow’s stomach. The absence of these prokaryotes would hamper the cow’s ability to obtain energy from food and could lead to weight loss and possibly death. Thus, prokaryotic species are reintroduced, in appropriate combinations, in the gut culture given to treated cows.</p>
+    </blockquote>
+
+</details>
+
+## **3.4** Lipids
+- Not true polymers, generally not big enough to considered macromolecules
+- Hydrophobic, consist mostly of hydrocarbon regions
+- Varied in form and function
+
+#### Fats
+
+## **3.5** Proteins
+
+## **3.6** Nucleic acids
 
 ## Test your understanding {#test03 .review}
 <details>
